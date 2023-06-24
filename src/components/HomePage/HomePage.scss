@@ -1,3 +1,4 @@
+
 .homepage1{
     width: 100%;
     height: 400px;
@@ -186,5 +187,213 @@
     position: absolute;
     z-index: 1;
     bottom:-550px;
+}
+.homepage4{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage4-item-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+    margin-top: -30px ;
+    margin-left: 560px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homepage4-item-sub-tittle p{
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1;
+    color: #989898;
+    bottom: 680px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 485px;
+}
+.homepage4-item-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 1;
+    bottom: 630px;
+    position: absolute;
+}
+.homepage4-item-btn:hover{
+    cursor: pointer;
+}
+.homepage4-img{
+    margin-top: 600px;
+     width: 100%;
+}
+.homepage5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage5-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homepage5-frame1{
+    width: 350px;
+    height: 270px;
+}
+.homepageimg1 img{
+    height: 240px;
+
+    border: 1px solid #EEEEEE;
+}
+.homepageimg-text1 p{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin-top: -5px;
+    width: 313px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.homepage5-frame1{
+    width: 350px;
+    height: 270px;
+}
+.homepageimg2 img{
+    height: 240px;
+   
+    border: 1px solid #EEEEEE;
+}
+.homepageimg-text2 p{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin-top: -5px;
+    width: 313px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.homepage5-frame3{
+    width: 350px;
+    height: 270px;
+}
+.homepageimg3 img{
+    height: 240px;
+   
+    border: 1px solid #EEEEEE;
+}
+.homepageimg-text3 p{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin-top: -5px;
+    width: 313px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.homepage5-frame4{
+    width: 350px;
+    height: 270px;
+}
+.homepageimg4 img{
+    height: 240px;
+
+    border: 1px solid #EEEEEE;
+}
+.homepageimg-text4 p{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin-top: -5px;
+    width: 313px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.homepage5-frame5{
+    width: 350px;
+    height: 270px;
+}
+.homepageimg5 img{
+    height: 240px;
     
+    border: 1px solid #EEEEEE;
+}
+.homepageimg-text5 p{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin-top: -5px;
+    width: 313px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.homepage5-frame6{
+    width: 350px;
+    height: 270px;
+}
+.homepageimg6 img{
+    height: 240px;
+   
+    border: 1px solid #EEEEEE;
+}
+.homepageimg-text6 p{
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EEEEEE;
+    margin-top: -5px;
+    width: 313px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.homepage5-frame-total {
+    padding-left: 220px;
+    padding-right: 200px;
+}
+.homepage5-frame-total  .slick-next{
+    margin-right: -50px!important;
+    width: 45px;
+    height: 45px;
+}
+.homepage5-frame-total  .slick-prev{
+    margin-left: -80px!important;
+    width: 45px;
+    height: 45px;
+    z-index: 1 !important;
+}
+.homepage5-frame-total  .slick-next:before {
+    font-size: 50px !important;
+    color: #000;
+}
+.homepage5-frame-total   .slick-prev::before{
+    font-size: 50px !important;
+    color: #000;
+}
+
+.homepage5-frame-total  .slick-next:hover{
+    cursor: pointer;   
+
+}
+.homepage5-frame-total   .slick-prev:hover{
+    cursor: pointer;
 }
