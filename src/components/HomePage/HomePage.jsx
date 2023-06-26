@@ -18,11 +18,18 @@ import body3 from "../../img/homebg-2.jpg";
 import homepag3footer from "../../img/fobn1-wttext.jpg";
 import homepage4img from "../../img/newmap.jpg";
 import homepage5img1 from "../../img/lk-tgcp.jpg";
-import homepage5img2 from "../../img/lk-tnl.jpg"
-import homepage5img3 from "../../img/TP_CFa.jpg"
-import homepage5img4 from "../../img/lk-lct.jpg"
-import homepage5img5 from "../../img/lk-tne.jpg"
-import homepage5img6 from "../../img/lk-bttgcp.jpg"
+import homepage5img2 from "../../img/lk-tnl.jpg";
+import homepage5img3 from "../../img/TP_CFa.jpg";
+import homepage5img4 from "../../img/lk-lct.jpg";
+import homepage5img5 from "../../img/lk-tne.jpg";
+import homepage5img6 from "../../img/lk-bttgcp.jpg";
+import homebanner1responsive from "../../img/homebanner-m1.jpg";
+import homebanner2responsive from "../../img/homebanner-m2.jpg";
+import homebanner3responsive from "../../img/homebanner-m3.jpg";
+import footerresponsive from "../../img/footer-main-m1.jpg";
+import homepage2responsive1 from "../../img/sl-e.jpg"
+import homepage3footerresponsive from "../../img/footer-wttext.jpg"
+
 
 function HomePage() {
   const settings = {
@@ -41,6 +48,19 @@ function HomePage() {
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          dots: false,
+          infinite: false,
+          speed: 500,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+    
   };
   const settings3 = {
     dots: false,
@@ -48,6 +68,18 @@ function HomePage() {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          dots: false,
+          infinite: true,
+          speed: 1000,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <>
@@ -58,14 +90,14 @@ function HomePage() {
               className="home-page-banner1"
               src={homebanner1}
               alt=""
-              style={{ width: "100vw", height: "90vh" }}
+              style={{ width: "100%", height: "600px" }}
             />
             <div>
               <img
                 className="home-page-footer"
                 src={homebannerfooter}
                 alt=""
-                style={{ width: "100vw" }}
+                style={{ width: "100%" }}
               />
             </div>
           </div>
@@ -74,14 +106,14 @@ function HomePage() {
               className="home-page-banner2"
               src={homebanner2}
               alt=""
-              style={{ width: "100vw", height: "90vh" }}
+              style={{ width: "100%", height: "600px" }}
             />
             <div>
               <img
                 className="home-page-footer"
                 src={homebannerfooter}
                 alt=""
-                style={{ width: "100vw" }}
+                style={{ width: "100%" }}
               />
             </div>
           </div>
@@ -90,16 +122,42 @@ function HomePage() {
               className="home-page-banner3"
               src={homebanner3}
               alt=""
-              style={{ width: "100vw", height: "90vh" }}
+              style={{ width: "100%", height: "600px" }}
             />
             <div>
               <img
                 className="home-page-footer"
                 src={homebannerfooter}
                 alt=""
-                style={{ width: "100vw" }}
+                style={{ width: "100%" }}
               />
             </div>
+          </div>
+        </Slider>
+      </div>
+      <div className="homepage1-responsive">
+        <Slider {...settings}>
+          <div>
+            <img
+              className="home-page-banner1-m1"
+              src={homebanner1responsive}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="home-page-banner2-m1"
+              src={homebanner2responsive}
+              alt=""
+            />
+          </div>
+          <div>
+            <img
+              className="home-page-banner3-m1"
+              src={homebanner3responsive}
+              alt=""
+           
+            />
           </div>
         </Slider>
       </div>
@@ -131,8 +189,9 @@ function HomePage() {
               </div>
             </div>
             <div className="item-img">
-              <img style={{ width: "90vw" }} src={logobody} alt="" />
+              <img style={{ width: "100%" }} src={logobody} alt="" />
             </div>
+           
           </div>
           <div className="homepage2-slide1">
             <div className="slide-item-text">
@@ -151,17 +210,30 @@ function HomePage() {
               </div>
               <div className="item-img"></div>
             </div>
-            <img
-              style={{ width: "90vw", marginTop: "35px" }}
+            <img className="logobody2"
+              style={{ width: "90%", marginTop: "35px" }}
               src={logobodyEcoffee}
               alt=""
             />
+            <img className="logobody2-responsive"
+              style={{ width: "90%", marginTop: "35px" }}
+              src={homepage2responsive1}
+              alt=""
+            />
+           
           </div>
         </Slider>
         <div className="homepage2-footer">
           <img
             src={homepag2footer}
-            style={{ width: "100vw", marginTop: "-100px" }}
+            style={{ width: "100%", marginTop: "-100px" }}
+            alt=""
+          />
+        </div>
+        <div className="homepage2-footer-responsive">
+          <img
+            src={footerresponsive}
+            style={{ width: "100%", marginTop: "-100px" }}
             alt=""
           />
         </div>
@@ -186,12 +258,16 @@ function HomePage() {
             className="homepage3-relative"
             src={body3}
             alt=""
-            style={{ width: "100vw" }}
+            style={{ width: "100%" }}
           />
         </div>
         <div className="homepage3-footer">
-          <img src={homepag3footer} style={{ width: "100vw" }} alt="" />
+          <img src={homepag3footer} style={{ width: "100%" }} alt="" />
         </div>
+        <div className="homepage3-footer-responsive">
+          <img src={homepage3footerresponsive} style={{ width: "100%" }} alt="" />
+        </div>
+       
       </div>
       <div className="homepage4">
         <div className="homepage4-item-text">
@@ -214,18 +290,18 @@ function HomePage() {
           <img
             src={homepage4img}
             alt=""
-            style={{ width: "100vw", height: "100vh" }}
+            style={{ width: "100%", height: "100vh" }}
           />
         </div>
       </div>
-     <div className="homepage5">
-      <div className="homepage5-text">
-        <h2>Liên Kết</h2>
+      <div className="homepage5">
+        <div className="homepage5-text">
+          <h2>Liên Kết</h2>
+        </div>
       </div>
-     </div>
-     <div className="homepage5-frame-total">
-     <Slider {...settings3}>
-     <div className="homepage5-frame1">
+      <div className="homepage5-frame-total">
+        <Slider {...settings3}>
+          <div className="homepage5-frame1">
             <div className="homepageimg1">
               <img src={homepage5img1} alt="" />
             </div>
@@ -273,8 +349,8 @@ function HomePage() {
               <p>BẢO TÀNG THẾ GIỚI CÀ PHÊ</p>
             </div>
           </div>
-      </Slider>
-     </div>
+        </Slider>
+      </div>
     </>
   );
 }

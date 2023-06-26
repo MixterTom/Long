@@ -1,25 +1,33 @@
-
+:root{
+    overflow-x: hidden;
+}
 .homepage1{
     width: 100%;
     height: 400px;
 }
+.homepage1-responsive{
+    width: 100%;
+    height: 600px;
+    display: none;
+}
+
 .home-page-banner1{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 .home-page-banner2{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 .home-page-banner3{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 400px;
+    height: 450px;
 }
 .home-page-footer{
     border-bottom: 2px solid #ede9e9;
@@ -27,7 +35,7 @@
 .homepage2{
     width: 100%;
     height: 730px;
-    margin-top: 600px;
+    margin-top: 430px;
 }
 .homepage2-slide1{    
     display: flex !important;
@@ -96,16 +104,26 @@
     font-size: 0.8rem;
     font-weight: 550;
 }
+.logobody2{
+    display: block;
+}
+.logobody2-responsive{
+    display: none !important;
+}
 .homepage2  .slick-next{
     margin-right: 60px!important;
     width: 45px;
     height: 45px;
+    z-index: 10;
+    margin-top: -50px;
 }
 .homepage2  .slick-prev{
-    margin-left: 70px!important;
+    margin-left: 60px!important;
     width: 45px;
     height: 45px;
-    z-index: 1 !important;
+    z-index: 10 !important;
+    margin-top: -50px;
+    
 }
 .homepage2  .slick-next:before {
     font-size: 50px !important;
@@ -123,6 +141,12 @@
     cursor: pointer;
 }
 .homepage2-footer{
+    margin-top: -10px;
+    position: relative;
+    z-index: 10;
+}
+.homepage2-footer-responsive{
+    display: none;
     position: relative;
     z-index: 10;
 }
@@ -188,6 +212,9 @@
     z-index: 1;
     bottom:-550px;
 }
+.homepage3-footer-responsive{
+    display: none;
+}
 .homepage4{
     width: 100%;
     position: relative;
@@ -210,7 +237,7 @@
     font-family: 'Times New Roman', Times, serif;
     z-index: 1;
     color: #989898;
-    bottom: 680px;
+    bottom: 650px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -224,7 +251,7 @@
     align-items: center;
     margin-top: 20px;
     z-index: 1;
-    bottom: 630px;
+    bottom: 600px;
     position: absolute;
 }
 .homepage4-item-btn:hover{
@@ -396,4 +423,324 @@
 }
 .homepage5-frame-total   .slick-prev:hover{
     cursor: pointer;
+}
+@media(max-width:1024px){
+    .home-page-banner1{
+        width: 100%;
+        height: 350px;
+    }
+    .home-page-banner2{
+        width: 100%;
+        height: 350px;
+    }
+    .home-page-banner3{
+        width: 100%;
+        height: 350px;
+    }
+    .homepage2{
+        margin-top: 350px;
+        height: 610px;
+    }
+    .slide-item-text {
+    
+        margin-top: 0px;
+    }
+    .item-img img{
+        height: 600px;
+    }
+    .homepage3-tittle p {
+        margin-top: 5px;
+        width: 600px;
+        text-align: center;
+    }
+    .homepage3-logo {
+        width: 40px;
+        height: 40px;
+    }
+    .homepage3-trungnguyen{
+        width: 70px;
+    }
+    .homepage3-g7{
+        width: 80px;
+    }
+    .homepage3-relative{
+        width: 1170px;
+    height: 800px;
+    margin-left: -80px;
+    
+    }
+    .homepage4{
+        width: 140%;
+        margin-left: -160px;
+        
+    }
+    .homepage4-img{
+        height: 700px;
+    }
+    .homepage4-item-btn{
+        bottom: 520px;
+    }
+    .homepage4-item-text h2{
+        margin-top: -5px;
+    margin-left: 515px;
+    }
+    .homepage4-item-sub-tittle p{
+        bottom: 580px;
+        margin-left: 450px;
+    }
+    .homepage5{
+        margin-top: 700px;
+    }
+    .homepage5-frame-total {
+        padding-left: 125px;
+        padding-right: 90px;
+    }
+    .homepageimg1 img{
+        height: 185px;
+        margin-top: 15px;
+    }
+    .homepageimg2 img{
+        height: 185px;
+        margin-top: 15px;
+    }
+    .homepageimg3 img{
+        height: 185px;
+        margin-top: 15px;
+    }
+    .homepageimg4 img{
+        height: 185px;
+        margin-top: 15px;
+    }
+    .homepageimg5 img{
+        height: 185px;
+        margin-top: 15px;
+    }
+    .homepageimg6 img{
+        height: 185px;
+        margin-top: 15px;
+    }
+    .homepageimg-text1 p {
+        width: 242px;
+    }
+    .homepageimg-text2 p {
+        width: 242px;
+    }
+    .homepageimg-text3 p {
+        width: 242px;
+    }
+    .homepageimg-text4 p {
+        width: 242px;
+    }
+    .homepageimg-text5 p {
+        width: 242px;
+    }.homepageimg-text6 p {
+        width: 242px;
+    }
+}
+@media (max-width: 414px) {
+    .homepage1{
+        display: none;
+    }
+    .homepage1-responsive{
+        display: block;
+    }
+    .home-page-banner1-m1{
+        width: 100%;
+        height: 570px;
+    }
+    .home-page-banner2-m1{
+        width: 100%;
+        height: 570px;
+    }
+    .home-page-banner3-m1{
+        width: 100%;
+        height: 570px;
+    }  
+    .homepage2{
+        margin-top: 50px;
+        height: 610px;
+    }
+    .homepage2-footer-responsive{
+        display: flex;
+    }
+    .homepage2-footer{
+        display: none;
+    }
+    .homepage2 .slick-next{
+        display: none !important;
+    }
+    .homepage2 .slick-prev{
+        display: none !important;
+    }
+    .item-img {
+        width: 240%;
+    }
+    .item-readmore-img-readmore {
+    width: 80px;
+    height: 19px;
+    font-size: 0.6rem;
+    margin-left: -4px;
+    width: 70px;
+    }
+    .item-readmore-img{
+        width: 35px;
+    height: 35px;
+    }
+    .item-text h2 {
+        font-size: 1.2rem;
+       
+    }
+    .item-sub-tittle p{
+        font-size: 0.8rem;
+        width: 300px;
+    }
+    .logobody2{
+        display: none !important;
+    }
+    .logobody2-responsive{
+       display: flex !important;
+        position: relative;
+        top: 155px;
+    }
+    .item-logo-2 img{
+        margin-left: -270px;
+    }
+    .homepage2-slide1 .item-btn{
+        margin-top: 10px;
+    margin-left: -550px;
+    z-index: 10;
+    }
+    .homepage2-footer-responsive{
+        margin-top: 0px;
+    }
+    .home3-text {
+        margin-top: 220px;
+        z-index: 2;
+    }
+    .homepage3-tittle {
+        font-size: 0.8rem;
+        width: 375px;
+        text-align: center;
+    }
+    .homepage3-tittle p {
+        margin-top: 5px;
+        width: 267px;
+        text-align: center;
+    }
+    .homepage3-relative {
+        height: 600px;
+        margin-left: -80px;
+        margin-top: 200px;
+    }
+    .homepage3-img-body {
+        position: absolute;
+        z-index: 1;
+        margin-top: 20px;
+        width: 1061px;
+        margin-left: -226px;
+    }
+    .homepage3-footer{
+        display: none;
+    }
+    .homepage3-footer-responsive{
+        display: flex;
+        z-index: 10;
+        margin-top: 230px;
+    }
+    .homepage4 .homepage4-img{
+        height: -50px;
+
+    }
+    .homepage4{
+        width: 160%;
+        margin-left: -100px;
+    }
+    .homepage4-img img{
+        margin-top: -50px;
+        
+    }
+    .homepage4-img img {
+        margin-top: -550px;
+    }
+    .homepage4-item-text h2 {
+        margin-top: -520px;
+        margin-left: 100px;
+        width: 400px;
+        font-size: 1rem;
+    }
+    .homepage4-item-sub-tittle p {
+        bottom: 1115px;
+        margin-left: 70px;
+        width: 464px;
+        font-size: 0.7rem;
+    }
+    .homepage4-item-btn {
+        bottom: 1080px;
+        margin-left: 40px;
+    }
+    .homepage5{
+        margin-top: -500px;
+    }
+    .homepageimg-text1 p {
+        width: 268px;
+    }
+    .homepageimg-text2 p {
+        width: 268px;
+    }
+    .homepageimg-text3 p {
+        width: 268px;
+    }
+    .homepageimg-text4 p {
+        width: 268px;
+    }
+    .homepageimg-text5 p {
+        width: 268px;
+    }.homepageimg-text6 p {
+        width: 268px;
+    }
+    .homepageimg1 img{
+        height: 185px;
+        margin-top: 15px;
+        width: 268px;
+    }
+    .homepageimg2 img{
+        height: 185px;
+        margin-top: 15px;
+        width: 268px;
+    }
+    .homepageimg3 img{
+        height: 185px;
+        margin-top: 15px;
+        width: 268px;
+    }
+    .homepageimg4 img{
+        height: 185px;
+        margin-top: 15px;
+        width: 268px;
+    }
+    .homepageimg5 img{
+        height: 185px;
+        margin-top: 15px;
+        width: 268px;
+    }
+    .homepageimg6 img{
+        height: 185px;
+        margin-top: 15px;
+        width: 268px;
+    }
+    .homepage5-frame-total {
+        padding-left: 60px;
+        padding-right: 33px;
+    }
+    .homepage5-frame-total  .slick-next{
+        margin-right: -10px!important;
+        width: 45px;
+        height: 45px;
+    }
+    .homepage5-frame-total  .slick-prev{
+        margin-left: -40px!important;
+        width: 45px;
+        height: 45px;
+        z-index: 1 !important;
+    }
 }

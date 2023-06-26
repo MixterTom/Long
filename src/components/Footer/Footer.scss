@@ -2,7 +2,7 @@
 .footer    {
     width: 100%;
     height: 290px;
-    background-color: pink;
+    background-color: #000;
     margin-top: 30px;
 }
 .footer-trungnguyen{
@@ -14,6 +14,10 @@
 .footer-trungnguyen-img{
    margin-top: 30px;
 }
+.footer-trungnguyen-img img{
+    width: 150px;
+    margin-top: 10px;
+}
 .footer-trungnguyen-text{
     margin-left: 40px;
 }
@@ -24,12 +28,17 @@
 }
 .footer-trungnguyen-text-tittle p{
     font-size: 0.8rem;
-    color: #EEEEEE;
+    color: #828282;
     margin-top: 10px;
 }
 .footer-trungnguyen-text-foot{
     font-size: 0.8rem;
-    color: #EEEEEE;
+    color: #828282;
+}
+.footer-trungnguyen-text-foot-responsive{
+    font-size: 0.8rem;
+    color: #828282;
+    display: none;
 }
 .footer-link {
     display: flex;
@@ -49,27 +58,173 @@
     align-items: flex-start;
    
 }
-.footer-link-body a{
+.footer-link-body-row a{
     font-size: 0.8rem;
-    color: #EEEEEE;
+    color: #828282;
     text-decoration: none;
     margin-top: 10px;
+    margin-left: 10px;
+}
+.footer-link-body-row a:hover{
+    color: darkgoldenrod;
+}
+.footer-link-body-row i{
+    margin-top: 10px;
+    font-size: 0.8rem;
+    color: #828282;
+}
+.footer-link-body-row{
+    display: flex;
+    flex-direction: row;
+}
+.footer-link-body-row{
+    margin-left: 15px;
 }
 .footer-link-partner{
     margin-top: 60px;
-    margin-left: -20px;
+    margin-left: -5px;
 }
 .footer-link-partner-trungnguyen{
    width: 60px;
-   margin: 5px;
+   margin: 10px;
+   filter: grayscale(100%);
+    transition: 250ms;
+}
+.footer-link-partner-trungnguyen:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
 }
 .footer-link-partner-trungnguyenold{
     width: 40px;
+    filter: grayscale(100%);
+    transition: 250ms;
+ }
+ .footer-link-partner-trungnguyenold:hover{
+  
+    filter: grayscale(0%);
+    cursor: pointer;
  }
  .footer-link-partner-trungnguyeng7{
     width: 40px;
+    filter: grayscale(100%);
+    transition: 250ms;
  }
-
+ .footer-link-partner-trungnguyeng7:hover{
+    filter: grayscale(0%);
+    cursor: pointer;
+ }
 .footer-social {
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    align-items: flex-start;
+    margin-top: -235px;
+    margin-right:340px ;
+
+}
+.footer-social-head{
+    color: #fff;
+    font-size: 0.9rem;
+}
+.footer-social-body{
+    display: flex;
+    flex-direction: column;
+   
+}
+.footer-social-body a{
+    text-decoration: none;
+    color: #828282;
+    margin-top: 10px;
+    font-size: 0.8rem;
+}
+.footer-social-body a:hover{
+    color: darkgoldenrod;
+}
+.footer-social-body img{
+    margin-top: 10px;
+}
+@media  (max-width: 1024px) {
+    .footer-link{
+        margin-left: 280px;
+    } 
+    .footer-social{
+        margin-right: 60px;
+    }
+}
+@media (max-width: 414px) {
+    .footer{
+        height: 645px;
+    }
+    .footer-trungnguyen {
+        display: flex;
+        flex-direction: column;
+        width: 560px;
+        margin-left: 126px;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+    .footer-trungnguyen-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        margin-left: -75px;
+        margin-top: -20px;
+    }
+    .footer-trungnguyen-text-tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        
+    }
+    .footer-trungnguyen-text-tittle p{
+        margin-top: -5px;
+    }
+    .footer-trungnguyen-text-foot-responsive{
+            display: flex;
+            margin-left: -5px;
+            text-align: center;
+            font-size: 0.8rem;
+        
+    }
+    .footer-trungnguyen-text-foot{
+        display: none;
+    }
+    .footer-link{margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 27px;
+    }
+    .footer-link-body-row i{
+        display: none;
+    }
+    .footer-link-body{
+        margin-left: -48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link-partner {
+        margin-left: -35px;
+        margin-top: 35px;
+    }
+    .footer-link-partner-trungnguyen {
+        width: 100px;
+        margin: 25px
+    }
+    .footer-link-partner-trungnguyenold{
+        margin-bottom: 30px;
+    }
+    .footer-link-partner-trungnguyeng7{
+        margin-bottom: 30px;
+    }
+    .footer-social {
+    display: none;
+}
 }
