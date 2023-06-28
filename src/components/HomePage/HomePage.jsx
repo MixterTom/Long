@@ -241,7 +241,7 @@ function HomePage() {
       <div className="homepage3">
         <div className="home3-text">
           <div className="homepage3-tittle">
-            <h2> CÀ PHÊ NĂNG LƯỢNG – CÀ PHÊ ĐỔI ĐỜI</h2>
+            <h2> CÀ PHÊ NĂNG LƯỢNG - CÀ PHÊ ĐỔI ĐỜI</h2>
             <p>
               “Dù có phải xới tung trái đất này lên cũng phải làm để tạo ra
               những tuyệt phẩm cà phê năng lượng ngon nhất thế giới
