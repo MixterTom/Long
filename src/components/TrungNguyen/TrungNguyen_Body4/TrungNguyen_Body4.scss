@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyen-body4-wrap {
+    height: 100%;
+    padding-top: 40px;
+}
+
+.trungnguyen-body4-wrap-header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+    color: #616161;
+}
+
+.trungnguyen-body4-wrap-subheader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 370px;
+    line-height: 1.8;
+    color: #616161;
+    font-size: 15px;
+}
+
+.trungnguyen-body4-wrap-products {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trungnguyen-body4-product {
+    padding: 20px 60px 0 60px;
+    cursor: pointer;
+    height: 100%;
+}
+
+.trungnguyen-body4-product:hover {
+    background-color: #fafafa;
+}
+
+.trungnguyen-body4-product-heading {
+    color: #444444;
+    font-size: 21px;
+    line-height: 1.48;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.trungnguyen-body4-product-para {
+    padding: 0 18px;
+    color: #888;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 14px;
+}
+
+.trungnguyen-body4-readmore {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #E9B254;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.trungnguyen-body4-readmore:hover {
+    margin-left: 5px;
+}
+
+.trungnguyen-body4-readmore i {
+    position: absolute;
+    right: 75px;
+    top: 23px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyen-body4-wrap-subheader {
+        padding: 0 200px;
+        font-size: 15.5px;
+    }
+    .trungnguyen-body4-product {
+        padding: 20px 20px 0 20px;
+        cursor: pointer;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .trungnguyen-body4-wrap {
+        padding-top: 0;
+    }
+    .trungnguyen-body4-wrap-products {
+        display: block;
+        height: 100%;
+    }   
+    .trungnguyen-body4-product img {
+        margin: 0 60px;
+    }
+    .trungnguyen-body4-wrap-header {
+        padding: 0 40px 20px 40px;
+        text-align: center;
+    }
+    .trungnguyen-body4-wrap-subheader {
+        padding: 0;
+        text-align: justify;
+        font-size: 12px;
+    }
+
+    .trungnguyen-body4-readmore i {
+        position: absolute;
+        right: 135px;
+        top: 23px;
+        font-size: 14px;
+    }
+}

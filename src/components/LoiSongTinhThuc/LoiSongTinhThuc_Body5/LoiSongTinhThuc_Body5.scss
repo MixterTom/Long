@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.loisongtinhthuc-body5-text-heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.275rem;
+    padding: 25px 0;
+    font-weight: 550;
+}
+
+.loisongtinhthuc-body5-products {
+    display: flex;
+    width: 100%;
+}
+
+.loisongtinhthuc-body5-product.col {
+    padding: 0 10px;
+    width: 25%;
+    cursor: pointer;
+}
+
+.loisongtinhthuc-body5-product img {
+    width: 336.4px;
+    height: 252.3px;
+}
+
+.loisongtinhthuc-body5-product-heading {
+    color: #444444;
+    font-size: 20px;
+    line-height: 1.2;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+.loisongtinhthuc-body5-product-para {
+    padding: 0 26px;
+    color: #888;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 15px;
+}
+
+.loisongtinhthuc-body5-readmore {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #E9B254;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.loisongtinhthuc-body5-readmore:hover {
+    margin-left: 5px;
+}
+
+.loisongtinhthuc-body5-readmore i {
+    position: absolute;
+    right: 105px;
+    top: 33px;
+    font-size: 14px;
+}
+
+.loisongtinhthuc-body5-product.col:hover {
+    background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 1024px) {
+    .loisongtinhthuc-body5-product img {
+        width: 221.8px;
+        height: 166.350px;
+    }
+    .loisongtinhthuc-body5-product-heading {
+        color: #444444;
+        font-size: 18px;
+        line-height: 1.2;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0px 20px;
+        text-transform: uppercase;
+    }
+    .loisongtinhthuc-body5-product-para {
+        padding: 0 26px;
+        color: #888;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 15px;
+    }
+    .loisongtinhthuc-body5-readmore i {
+        position: absolute;
+        right: 50px;
+        top: 33px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .loisongtinhthuc-body5-products {
+        display: block;
+    }
+    .loisongtinhthuc-body5-products img {
+        width: 397.6px;
+        height: 298.2px;
+    }    
+    .loisongtinhthuc-body5-product-heading {
+        color: #444444;
+        font-size: 21px;
+        line-height: 1.48;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .loisongtinhthuc-body5-product.col {
+        width: 100%;
+        padding: 0;
+    }
+    .loisongtinhthuc-body5-text-heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 17px;
+        padding: 25px 0;
+        font-weight: 550;
+    }
+    .loisongtinhthuc-body5-readmore i {
+        position: absolute;
+        right: 135px;
+        top: 33px;
+        font-size: 14px;
+    }
+}

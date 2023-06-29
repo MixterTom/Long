@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.loisongtinhthuc-body3-wrap {
+    height: 760px;
+}
+
+.loisongtinhthuc-body3-text-heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.275rem;
+    padding: 25px 0;
+    font-weight: 550;
+}
+
+.loisongtinhthuc-body3-products {
+    display: flex;
+    justify-content:space-around;
+}
+
+.loisongtinhthuc-body3-products img {
+    width: 458.525px;
+    height: 305.675px;
+}
+
+.loisongtinhthuc-body3-product.col {
+    width: calc(458.525px - 30px) ;
+    height: 100%;
+    cursor: pointer;
+}
+
+.loisongtinhthuc-body3-product.col:hover {
+    background-color: #FAFAFA;
+}
+
+.loisongtinhthuc-body3-product-heading {
+    color: #444444;
+    font-size: 21px;
+    line-height: 1.48;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.loisongtinhthuc-body3-product-para {
+    padding: 0 18px;
+    color: #888;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 14px;
+}
+
+.loisongtinhthuc-body3-readmore {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #E9B254;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.loisongtinhthuc-body3-readmore:hover {
+    margin-left: 5px;
+}
+
+.loisongtinhthuc-body3-readmore i {
+    position: absolute;
+    right: 150px;
+    top: 33px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .loisongtinhthuc-body3-product.col {
+        width: 305.725px;
+    }
+    .loisongtinhthuc-body3-products img {
+        width: 305.725px;
+        height: 203.812px;
+    }
+    .loisongtinhthuc-body3-readmore i {
+        position: absolute;
+        right: 88px;
+        top: 33px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .loisongtinhthuc-body3-products {
+        display: block;
+        height: 100%;
+    }
+    .loisongtinhthuc-body3-products img {
+        width: 397.6px;
+        height: 265.062px;
+    }    
+    .loisongtinhthuc-body3-product.col {
+        width: 100%;
+        height: 480px;
+    }
+    .loisongtinhthuc-body3-text-heading {
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 1rem;
+        padding: 25px 0;
+        font-weight: 550;
+    }
+    .loisongtinhthuc-body3-readmore i {
+        position: absolute;
+        right: 135px;
+        top: 33px;
+        font-size: 14px;
+    }
+}

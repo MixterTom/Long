@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyenlegendcafe-body2-wrap {
+    display: block;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 162.400px;
+    padding-right: 162.400px;
+    max-width: 1140px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 140px;
+}
+
+.trungnguyenlegendcafe-body2-img-header {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegendcafe-body2-img-header1 img{
+    width: 350px;
+    height: 182px;
+}
+
+.trungnguyenlegendcafe-body2-text-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0;
+    color: #171c24;
+}
+
+.trungnguyenlegendcafe-body2-text-para {
+    margin: 0 0 20px 0;
+    color: #616161;
+    line-height: 1.8;
+    text-align: justify;
+    font-size: 15.3px;
+    padding: 0 16px;
+}
+
+.trungnguyenlegendcafe-body2-img2-body,
+.trungnguyenlegendcafe-body2-img1-body {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyenlegendcafe-body2-wrap {
+        max-width: 940px;
+        padding: 45px 33.6px 0 33.6px;
+    }
+    .trungnguyenlegendcafe-body2-text-para {
+        text-align: justify;
+        font-size: 15px;
+        padding: 0 11px;
+    }
+    .trungnguyenlegendcafe-body2-text-heading { 
+        font-size: 20px;
+    }
+    .trungnguyenlegendcafe-body2-img1-body img {
+        width: auto;
+        height: auto;
+    }
+    .trungnguyenlegendcafe-body2-img2-body img {
+        width: 920px;
+        height: 686.263px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .trungnguyenlegendcafe-body2-wrap {
+        width: 377.600px;
+        padding: 160px 10px 0 10px;
+        height: 100%;
+    }
+    .trungnguyenlegendcafe-body2-text-para {
+        text-align: justify;
+        font-size: 12px;
+        margin: 0;
+        padding: 0;
+    }
+    .trungnguyenlegendcafe-body2-text-heading { 
+        padding-top: 0;
+        font-size: 18px;
+    }
+    .trungnguyenlegendcafe-body2-img2-body img,
+    .trungnguyenlegendcafe-body2-img1-body img {
+        width: 377.600px;
+        height: auto;
+    }
+}

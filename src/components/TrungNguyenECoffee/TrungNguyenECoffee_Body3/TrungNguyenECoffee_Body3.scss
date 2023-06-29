@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyenecoffee-body3-wrap {
+    display: block;
+    justify-content: center;
+    padding-top: 40px;
+    padding-left: 162.400px;
+    padding-right: 162.400px;
+    max-width: 1140px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 120px;
+}
+
+.trungnguyenecoffee-body3-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.trungnguyenecoffee-body3-img-right1,
+.trungnguyenecoffee-body3-img-right2 {
+    margin-bottom: 16px;
+}
+
+.trungnguyenecoffee-body3-info {
+    margin: 60px 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trungnguyenecoffee-body3-info-maps,
+.trungnguyenecoffee-body3-info-fanpage,
+.trungnguyenecoffee-body3-info-hotline {
+    background-color: #ebebeb;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+.trungnguyenecoffee-body3-info-maps:hover,
+.trungnguyenecoffee-body3-info-fanpage:hover,
+.trungnguyenecoffee-body3-info-hotline:hover {
+    color: #5e5e5e;
+    border-color: #dcdcdc;
+    background-color: #dcdcdc;
+}
+
+.trungnguyenecoffee-body3-info-fanpage {
+    margin: 0 60px;
+}
+
+.trungnguyenecoffee-body3-info-maps i,
+.trungnguyenecoffee-body3-info-fanpage i,
+.trungnguyenecoffee-body3-info-hotline i {
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyenecoffee-body3-wrap {
+        padding: 0 40px;
+    }
+    .trungnguyenecoffee-body3-imgs {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .trungnguyenecoffee-body3-img-left img {
+        width: 440px;
+        height: 362.578px;
+    }
+    .trungnguyenecoffee-body3-img-right1,
+    .trungnguyenecoffee-body3-img-right2 {
+        margin-bottom: 12px;
+    }
+
+    .trungnguyenecoffee-body3-img-right1 img ,
+    .trungnguyenecoffee-body3-img-right2 img ,
+    .trungnguyenecoffee-body3-img-right3 img {
+        width: 440px;
+        height: 110px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .trungnguyenecoffee-body3-wrap {
+        padding: 0 ;
+    }
+    .trungnguyenecoffee-body3-imgs {
+        display: block;
+    }
+    .trungnguyenecoffee-body3-info {
+        display: block;
+    }
+    .trungnguyenecoffee-body3-imgs img {
+        width: 100%;
+        height: auto;
+    }
+    .trungnguyenecoffee-body3-img-right1 img {
+        margin-top: 10px;
+    }
+    .trungnguyenecoffee-body3-info-fanpage {
+        margin: 0;
+    }
+    .trungnguyenecoffee-body3-info-maps,
+    .trungnguyenecoffee-body3-info-fanpage,
+    .trungnguyenecoffee-body3-info-hotline {
+        margin: 20px 80px;
+    }
+}

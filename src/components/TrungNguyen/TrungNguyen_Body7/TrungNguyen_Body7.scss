@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyen-body7-wrap {
+    height: 100%;
+    padding-top: 40px;
+}
+
+.trungnguyen-body7-wrap-heading-img {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyen-body7-wrap-subheader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 370px;
+    line-height: 1.8;
+    color: #616161;
+    font-size: 15px;
+}
+
+.trungnguyen-body7-wrap-products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trungnguyen-body7-product {
+    cursor: pointer;
+    height: 100%;
+}
+
+.trungnguyen-body7-product img {
+    margin: 0 55px;
+}
+
+.trungnguyen-body7-product:hover {
+    background-color: #fafafa;
+}
+
+.trungnguyen-body7-product-heading {
+    color: #444444;
+    font-size: 21px;
+    line-height: 1.48;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.trungnguyen-body7-product-para {
+    padding: 0 18px;
+    color: #888;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 15px;
+}
+
+.trungnguyen-body7-readmore {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #E9B254;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.trungnguyen-body7-readmore:hover {
+    margin-left: 5px;
+}
+
+.trungnguyen-body7-readmore i {
+    position: absolute;
+    right: 130px;
+    top: 23px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyen-body7-product {
+        padding: 20px 20px 0 20px;
+        cursor: pointer;
+        height: 100%;
+    }
+    .trungnguyen-body7-product img {
+        margin: 0 20px;
+    }
+    .trungnguyen-body7-product-heading{
+        width: 283.325px;
+    }
+    .trungnguyen-body7-readmore i {
+        position: absolute;
+        right: 100px;
+        top: 23px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .trungnguyen-body7-wrap {
+        padding-top: 0;
+    }
+    .trungnguyen-body7-wrap-products {
+        display: block;
+        height: 100%;
+    }   
+    .trungnguyen-body7-product img {
+        margin: 0 60px;
+    }
+    .trungnguyen-body7-product-heading{
+        margin: 0;
+        width: 100%;
+    }
+    .trungnguyen-body7-wrap-subheader {
+        padding: 20px 0;
+        text-align: justify;
+        font-size: 12px;
+    }
+    .trungnguyen-body7-readmore i {
+        position: absolute;
+        right: 135px;
+        top: 23px;
+        font-size: 14px;
+    }
+}

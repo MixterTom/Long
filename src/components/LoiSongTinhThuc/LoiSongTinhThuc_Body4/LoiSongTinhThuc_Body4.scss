@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.loisongtinhthuc-body4-text-heading {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.275rem;
+    padding: 25px 0;
+    font-weight: 550;
+}
+
+.loisongtinhthuc-body4-products {
+    display: flex;
+    width: 100%;
+}
+
+.loisongtinhthuc-body4-product.col-auto {
+    padding: 0 10px;
+    width: 20%;
+    cursor: pointer;
+}
+
+.loisongtinhthuc-body4-product img {
+    width: 100%;
+    height: auto;
+}
+
+.loisongtinhthuc-body4-product-heading {
+    color: #444444;
+    font-size: 20px;
+    line-height: 1.6;
+    display: flex;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0 30px;
+    text-transform: uppercase;
+}
+
+.loisongtinhthuc-body4-product-para {
+    padding: 0 26px;
+    color: #888;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 17px;
+}
+
+.loisongtinhthuc-body4-readmore {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #E9B254;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.loisongtinhthuc-body4-readmore:hover {
+    margin-left: 5px;
+}
+
+.loisongtinhthuc-body4-readmore i {
+    position: absolute;
+    right: 70px;
+    top: 33px;
+    font-size: 14px;
+}
+
+.loisongtinhthuc-body4-product.col-auto:hover {
+    background-color: #FAFAFA;
+}
+
+@media screen and (max-width: 1024px) {
+    .loisongtinhthuc-body4-product-heading {
+        color: #444444;
+        font-size: 25px;
+        line-height: 1.6;
+        display: flex;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 0 18px;
+
+    }
+    .loisongtinhthuc-body4-product-para {
+        padding: 0 26px;
+        color: #888;
+        line-height: 1.5;
+        text-align: center;
+        font-size: 15px;
+    }
+    .loisongtinhthuc-body4-readmore i {
+        position: absolute;
+        right: 25px;
+        top: 33px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .loisongtinhthuc-body4-products {
+        display: block;
+    }
+    .loisongtinhthuc-body4-products img {
+        width: 397.6px;
+        height: 397.6px;
+    }    
+    .loisongtinhthuc-body4-product-heading {
+        color: #444444;
+        font-size: 21px;
+        line-height: 1.48;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .loisongtinhthuc-body4-product.col-auto {
+        width: 100%;
+        padding: 0;
+    }
+    .loisongtinhthuc-body4-text-heading {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        padding: 25px 0;
+        font-weight: 550;
+        margin-top: 910px;
+    }
+    .loisongtinhthuc-body4-readmore i {
+        position: absolute;
+        right: 135px;
+        top: 33px;
+        font-size: 14px;
+    }
+}

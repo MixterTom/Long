@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.trungnguyenlegend-body3-wrap-header-top {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold
+}
+
+.trungnguyenlegend-body3-products {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 100px 0 100px;
+}
+
+.trungnguyenlegend-body3-product {
+    padding: 0 40px;
+    width: 50%;
+}
+
+.trungnguyenlegend-body3-product-img {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegend-body3-product-img img {
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.trungnguyenlegend-body3-product-img img:hover {
+    filter: grayscale(0);
+}
+
+.trungnguyenlegend-body3-wrap-product-preorder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 35px 0;
+    cursor: pointer;
+}
+
+.trungnguyenlegend-body3-wrap-product-preorder img {
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.trungnguyenlegend-body3-wrap-product-preorder-text {
+    font-size: 10px;
+    font-weight: bolder;
+    border: 1px dashed #616161;
+    border-left: none;
+    color: #171c24;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 20px;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+
+.trungnguyenlegend-body3-product-heading {
+    color: #444444;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 20px 18px 0 18px;
+
+}
+.trungnguyenlegend-body3-product-para {
+    padding: 0 26px;
+    color: #888;
+    line-height: 1.5;
+    text-align: justify;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1024px){
+    .trungnguyenlegend-body3-products {
+        padding: 40px 20px;
+    }
+    .trungnguyenlegend-body3-product {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .trungnguyenlegend-body3-products {
+        display: block;
+        padding: 10px;
+    }
+    .trungnguyenlegend-body3-product {
+        width: 100%;
+        padding: 0;
+    }
+    .trungnguyenlegend-body3-product-img img {
+        width: 357.6px;
+        height: auto;
+    }
+    .trungnguyenlegend-body3-product-heading {
+        color: #444444;
+        font-size: 18px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 20px 18px 0 18px;
+    }
+    .trungnguyenlegend-body3-product-para {
+        padding: 0 ;
+        color: #616161;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyenlegend-body2-wrap {
+    height: 100%;
+    display: block;
+    justify-content: center;
+    padding: 40px 150px;
+    margin-top: -3px;
+}
+
+.trungnguyenlegend-body2-img-header1 {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegend-body2-img-header1 img {
+    max-width: 350px;
+    height: auto;
+    color: none;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.trungnguyenlegend-body2-img-header1 img:hover {
+    filter: grayscale(0%);
+}
+
+.trungnguyenlegend-body2-text-heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.trungnguyenlegend-body2-text-para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #616161;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 0 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyenlegend-body2-wrap {
+        padding: 60px 33.6px 20px 33.6px;
+    }
+
+    .trungnguyenlegend-body2-text-para {
+        font-size: 15.6px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .trungnguyenlegend-body2-img-header1 img {
+        width: 283.325px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .trungnguyenlegend-body2-wrap {
+        margin-top: 110px;
+        padding: 60px 10px 10px 10px;
+    }
+    .trungnguyenlegend-body2-text-heading {
+        font-size: 15.5px;
+        display: flex;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .trungnguyenlegend-body2-text-para {
+        font-size: 12px;
+    }
+}

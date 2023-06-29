@@ -1,6 +1,7 @@
+
 import logonew from "../../img/new-logo.jpg";
 import "./Header.scss";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Header() {
   const [show1, setShow1] = useState(false);
@@ -16,15 +17,19 @@ function Header() {
   const option5 = document.querySelector(".dashboard-nav-dropdown5");
   const option6 = document.querySelector(".dashboard-nav");
   
-  window.onscroll = function() {scrollFunction()};
-  function scrollFunction() {
-    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
-
-      document.getElementsByClassName("header-img-logo").style.width = "100px";
-    } else {
-      document.getElementsByClassName("header-img-logo").style.width ="140px";
+  useEffect(() => {
+    const scrollTrigger = 60;
+    window.onscroll =function(){
+      const header = document.querySelector(".header-img-logo");
+      console.log(header)
+      if(window.scrollY >= scrollTrigger)
+      {
+        header.classList.add("inverted")
+      }else{
+        header.classList.remove("inverted")
+      }
     }
-  }
+  })
   function inputShow() {
     setShow6(!show6);
     if (show6) {
@@ -39,6 +44,7 @@ function Header() {
     setShow1(!show1);
     if (show1) {
       option1.classList.add("show");
+      option1.classList.add("dropdown");
       option2.classList.remove("show");
       option3.classList.remove("show");
       option4.classList.remove("show");
@@ -50,7 +56,9 @@ function Header() {
   function inputShow2() {
     setShow2(!show2);
     if (show2) {
+    
       option2.classList.add("show");
+      option2.classList.add("dropdown");
       option1.classList.remove("show");
       option3.classList.remove("show");
       option4.classList.remove("show");
@@ -62,7 +70,9 @@ function Header() {
   function inputShow3() {
     setShow3(!show3);
     if (show3) {
+ 
       option3.classList.add("show");
+      option3.classList.add("dropdown");
       option2.classList.remove("show");
       option1.classList.remove("show");
       option4.classList.remove("show");
@@ -74,7 +84,9 @@ function Header() {
   function inputShow4() {
     setShow4(!show4);
     if (show4) {
+   
       option4.classList.add("show");
+      option4.classList.add("dropdown");
       option2.classList.remove("show");
       option3.classList.remove("show");
       option1.classList.remove("show");
@@ -87,6 +99,7 @@ function Header() {
     setShow5(!show5);
     if (show5) {
       option5.classList.add("show");
+      option5.classList.add("dropdown");
       option2.classList.remove("show");
       option3.classList.remove("show");
       option4.classList.remove("show");
@@ -98,7 +111,7 @@ function Header() {
 
   return (
     <>
-      <div className="header">
+      <header className="header">
         <div className="header-menu">
           <i
             onClick={() => {
@@ -133,7 +146,7 @@ function Header() {
                     borderRight: "1px solid #fff",
                     width: "321px",
                   }}
-                  href="#"
+                  href="/homepage"
                   className="dashboard-nav-item"
                 >
                   TRANG CHỦ{" "}
@@ -224,7 +237,7 @@ function Header() {
                       borderRight: "1px solid #fff",
                       width: "321px",
                     }}
-                    href="#"
+                    href="/loi-song-tinh-thuc"
                     className="dashboard-nav-item"
                   >
                     {" "}
@@ -248,21 +261,21 @@ function Header() {
                   </a>
                   <div className="dashboard-nav-dropdown-menu">
                     <a
-                      href="#"
+                      href="trung-nguyen-legend"
                       style={{ borderRight: "1px solid #fff", width: "320px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN LEGEND
                     </a>
                     <a
-                      href="#"
+                      href="/trung-nguyen"
                       style={{ borderRight: "1px solid #fff", width: "320px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN
                     </a>
                     <a
-                      href="#"
+                      href="/g7"
                       style={{ borderRight: "1px solid #fff", width: "320px" }}
                       className="dashboard-nav-dropdown-item"
                     >
@@ -278,7 +291,7 @@ function Header() {
                   className="dashboard-nav-dropdown4"
                 >
                   <a
-                    href="#!"
+                    href="#"
                     style={{ borderRight: "1px solid #fff" }}
                     className="dashboard-nav-item"
                   >
@@ -287,14 +300,14 @@ function Header() {
                   </a>
                   <div className="dashboard-nav-dropdown-menu">
                     <a
-                      href="#"
+                      href="/trungnguyenecoffee"
                       style={{ borderRight: "1px solid #fff", width: "320px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN E-COFFEE
                     </a>
                     <a
-                      href="#"
+                      href="/khong-gian-trung-nguyen-legend-cafe"
                       style={{ borderRight: "1px solid #fff", width: "320px" }}
                       className="dashboard-nav-dropdown-item"
                     >
@@ -349,9 +362,19 @@ function Header() {
                 </div>
               </div>
               <div className="dashboard-social">
+                <a href="https://www.facebook.com/trungnguyenlegend/">
                 <i className="bi bi-facebook"></i>
+                </a>
+                <a href="https://plus.google.com/+trungnguyen">
                 <i className="bi bi-google"></i>
+                  </a>
+                  <a href="https://www.youtube.com/user/TapDoanTrungNguyen">
+                  
                 <i className="bi bi-youtube"></i>
+                  </a>
+    
+              
+                
               </div>
             </div>
           </div>
@@ -362,7 +385,7 @@ function Header() {
           </a>
         </div>
         <div className="header-language">VI/ EN /CH /KO</div>
-      </div>
+      </header>
     </>
   );
 }

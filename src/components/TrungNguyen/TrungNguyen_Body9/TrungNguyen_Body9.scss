@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyen-body9-wrap {
+    height: 100%;
+    display: block;
+    justify-content: center;
+    padding: 40px 150px;
+    margin-top: -3px;
+}
+
+.trungnguyen-body9-img-header1 {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyen-body9-img-header1 img {
+    width: 350px;
+    height: 152.9px;
+    color: none;
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+
+.trungnguyen-body9-img-header1 img:hover {
+    filter: grayscale(0%);
+}
+
+.trungnguyen-body9-text-heading {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.trungnguyen-body9-text-para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 20px 0;
+    color: #616161;
+    font-size: 15px;
+    line-height: 1.8;
+    padding: 0 30px;
+    font-style: italic;
+}
+
+.trungnguyen-body9-img-product {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyen-body9-img-product img {
+    filter: grayscale(100%);
+}
+
+.trungnguyen-body9-img-product img:hover {
+    filter: grayscale(0%);
+}
+
+.trungnguyen-body9-wrap-product-preorder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 35px 0;
+    cursor: pointer;
+}
+
+.trungnguyen-body9-wrap-product-preorder img {
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.trungnguyen-body9-wrap-product-preorder-text {
+    font-size: 10px;
+    font-weight: bolder;
+    border: 1px dashed #616161;
+    border-left: none;
+    color: #171c24;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 20px;
+    margin-top: 6px;
+    margin-left: -6px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyen-body9-wrap {
+        padding: 60px 33.6px 20px 33.6px;
+    }
+
+    .trungnguyen-body9-text-para {
+        font-size: 15.6px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .trungnguyen-body9-img-header1 img {
+        max-width: 283.325px;
+        height: auto;
+    }
+    .trungnguyen-body9-img-product img {
+        width: 440px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .trungnguyen-body9-wrap {
+        margin-top: 110px;
+        padding: 60px 10px 10px 10px;
+    }
+    .trungnguyen-body9-text-heading {
+        font-size: 15.5px;
+        display: flex;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .trungnguyen-body9-text-para {
+        font-size: 12px;
+    }
+    .trungnguyen-body9-img-product img {
+        width: 397.6px;
+    }
+}

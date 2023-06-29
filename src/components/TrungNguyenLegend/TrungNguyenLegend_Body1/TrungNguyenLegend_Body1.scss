@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.trungnguyenlegend-body1-wrap {
+    width: 100%;
+    height: 675px;
+    overflow: hidden;
+}
+
+.trungnguyenlegend-body1-img-header {
+    position: relative;
+}
+
+.trungnguyenlegend-body1-img-header2 img ,
+.trungnguyenlegend-body1-img-header1 img {
+    width: 1465px;
+    height: 100%;
+}
+
+.trungnguyenlegend-body1-img-header2 {
+    position: absolute;
+    bottom: -50px;
+    border-bottom: 0.5px solid #cacaca;
+}
+
+.trungnguyenlegend-body1-img-header-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyenlegend-body1-wrap {
+        height: 479px;
+    }
+    .trungnguyenlegend-body1-img-header2 img ,
+    .trungnguyenlegend-body1-img-header1 img {
+        width: 1008px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .trungnguyenlegend-body1-img-header {
+        display: none;
+    }
+
+    .trungnguyenlegend-body1-img-header-mobile {
+        display: block;
+        width: 100%;
+        height: calc(447.750px + 261.088px);
+    }
+
+    .trungnguyenlegend-body1-img-header1-mobile img{
+        width: 398px;
+        height: 447.750px;
+    }
+    .trungnguyenlegend-body1-img-header2-mobile img{
+        position: absolute;
+        bottom: 100px;
+        width: 398px;
+        height: 261.088px;
+    }
+}

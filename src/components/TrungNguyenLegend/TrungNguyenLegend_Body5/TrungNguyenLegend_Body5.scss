@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.trungnguyenlegend-body5-wrap-heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    color: #171c24;
+    font-size: 18px;
+}
+
+.trungnguyenlegend-body5-wrap-subheading {
+    color: #616161;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegend-body5-product-subheading {
+    text-align: center;
+    color: #616161;
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0 0 40px 0;
+}
+
+.trungnguyenlegend-body5-img-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.trungnguyenlegend-body5-products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.trungnguyenlegend-body5-product {
+    width: 50%;
+}
+
+.trungnguyenlegend-body5-product-img {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegend-body5-product-img img {
+    max-width: 100%;
+    height: auto;
+    transition: 0.5s;
+}
+
+.trungnguyenlegend-body5-wrap-product-preorder {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 35px 0;
+    cursor: pointer;
+}
+
+.trungnguyenlegend-body5-wrap-product-preorder img {
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.trungnguyenlegend-body5-wrap-product-preorder-text {
+    font-size: 10px;
+    font-weight: bolder;
+    border: 1px dashed #616161;
+    border-left: none;
+    color: #171c24;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    height: 30px;
+    padding-top: 8px;
+    padding-left: 20px;
+    margin-top: 6px;
+    margin-left: -10px;
+}
+
+.trungnguyenlegend-body5-product-heading {
+    color: #444444;
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 20px 18px 0 18px;
+
+}
+
+.trungnguyenlegend-body5-product-para {
+    padding: 0 26px;
+    color: #888;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.trungnguyenlegend-body5-text-para {
+    padding: 0 250px;
+    color: #616161;
+    line-height: 1.8;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trungnguyenlegend-body5-wrap-box {
+    background-color: #f9f9f9;
+    min-height: 250px;
+    position: relative;
+    padding: 60px 30px 0 30px;
+    margin-bottom: 40px;
+}
+
+.trungnguyenlegend-body5-wrap-box-heading {
+    font-size: 40px;
+    color: #252525;
+}
+
+.trungnguyenlegend-body5-wrap-box-subheading {
+    font-size: 20px;
+    color: #666666;
+    padding: 20px 0;
+}
+
+.trungnguyenlegend-body5-wrap-box-button {
+    font-size: 20px;
+    color: #898989;
+    padding: 20px;
+    width: 95px;
+    border: 2px solid #888;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.trungnguyenlegend-body5-wrap-box-button i {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    color: #f9f9f9;
+}
+
+.trungnguyenlegend-body5-wrap-box-button:hover {
+    background-color: #171c24;
+    width: 110px;
+    color: white;
+    border: 0;
+
+    .trungnguyenlegend-body5-wrap-box-button i {
+        opacity: 1;
+        color: white;
+    }
+}
+
+.trungnguyenlegend-body5-wrap-box-img img {
+    height: 250px;
+    width: auto;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+.trungnguyenlegend-body5-wrap-subheading-plus {
+    width: 997.06px;
+    margin-bottom: 40px;
+}
+
+.trungnguyenlegend-body5-img-header1,
+.trungnguyenlegend-body5-img-header2 {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegend-body5-img-header1 img {
+    height: auto;
+    width: 350px;
+    padding: 40px 0;
+}
+
+.trungnguyenlegend-body5-img-header2 img {
+    padding-bottom: 40px;
+    height: auto;
+    max-width: 100%;
+}
+
+.trungnguyenlegend-body5-products.last {
+    display: flex;
+    justify-content: center;
+}
+
+.trungnguyenlegend-body5-product.last {
+    width: 300px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyenlegend-body5-products {
+        padding: 0;
+    }
+
+    .trungnguyenlegend-body5-product-para {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .trungnguyenlegend-body5-img-header1 img,
+    .trungnguyenlegend-body5-img-header2 img {
+        width: 300px;
+        height: auto;
+    }
+    .trungnguyenlegend-body5-wrap-box-img img {
+        height: 100px;
+        width: auto;
+        position: absolute;
+        right: 0;
+        top: 210px;
+    }
+
+    .trungnguyenlegend-body5-products.last,
+    .trungnguyenlegend-body5-products {
+        display: block;
+        padding: 10px;
+    }
+    .trungnguyenlegend-body5-product.last,
+    .trungnguyenlegend-body5-product {
+        width: 100%;
+        padding: 0;
+    }
+    .trungnguyenlegend-body5-product.last img,
+    .trungnguyenlegend-body5-product-img img {
+        max-width: 100%;
+        height: auto;
+    }
+    .trungnguyenlegend-body5-product.last,
+    .trungnguyenlegend-body5-product-heading {
+        color: #444444;
+        font-size: 18px;
+        line-height: 1.8;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 20px 18px 0 18px;
+    }
+    .trungnguyenlegend-body5-product.last,
+    .trungnguyenlegend-body5-product-para {
+        padding: 0;
+        color: #616161;
+        line-height: 1.8;
+        text-align: justify;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .trungnguyenlegend-body5-text-para {
+        padding: 10px;
+        color: #616161;
+        line-height: 1.8;
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}

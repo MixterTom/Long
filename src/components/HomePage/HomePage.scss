@@ -147,12 +147,12 @@
 .homepage2-footer{
     margin-top: -10px;
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 .homepage2-footer-responsive{
     display: none;
     position: relative;
-    z-index: 10;
+    z-index: 1;
 }
 .homepage3{
     display: flex;
@@ -447,7 +447,7 @@
     }
     .slide-item-text {
     
-        margin-top: 0px;
+        margin-top: 12px;
     }
     .item-img img{
         height: 600px;
@@ -480,6 +480,7 @@
     }
     .homepage4-img{
         height: 700px;
+        margin-left: -80px;
     }
     .homepage4-item-btn{
         bottom: 520px;
@@ -653,6 +654,7 @@
     }
     .homepage4 .homepage4-img{
         height: -50px;
+        margin-left: -45px;
 
     }
     .homepage4{
@@ -680,7 +682,7 @@
     }
     .homepage4-item-btn {
         bottom: 1080px;
-        margin-left: 40px;
+        margin-left: -40px;
     }
     .homepage5{
         margin-top: -500px;
@@ -732,6 +734,25 @@
         margin-top: 15px;
         width: 268px;
     }
+    .homepage5-frame1 {
+        margin-left: 10px;
+    }
+    .homepage5-frame2 {
+        margin-left: 10px;
+    }
+    .homepage5-frame3 {
+        margin-left: 10px;
+    }
+    .homepage5-frame4 {
+        margin-left: 10px;
+    }
+    .homepage5-frame5 {
+        margin-left: 10px;
+    }
+    .homepage5-frame6 {
+        margin-left: 15px;
+    }
+    
     .homepage5-frame-total {
         padding-left: 60px;
         padding-right: 33px;

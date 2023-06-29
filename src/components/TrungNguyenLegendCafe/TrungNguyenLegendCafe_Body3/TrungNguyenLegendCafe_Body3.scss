@@ -1,0 +1,80 @@
+.trungnguyenlegendcafe-body3-wrap {
+    display: block;
+    justify-content: center;
+}
+
+.trungnguyenlegendcafe-body3-text-heading {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+.trungnguyenlegendcafe-body3-info {
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.trungnguyenlegendcafe-body3-info-maps,
+.trungnguyenlegendcafe-body3-info-fanpage,
+.trungnguyenlegendcafe-body3-info-hotline {
+    background-color: #ebebeb;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #666;
+    font-size: 14px;
+}
+
+.trungnguyenlegendcafe-body3-info-maps:hover,
+.trungnguyenlegendcafe-body3-info-fanpage:hover,
+.trungnguyenlegendcafe-body3-info-hotline:hover {
+    color: #5e5e5e;
+    border-color: #dcdcdc;
+    background-color: #dcdcdc;
+}
+
+.trungnguyenlegendcafe-body3-info-fanpage {
+    margin: 0 60px;
+}
+
+.trungnguyenlegendcafe-body3-info-maps i,
+.trungnguyenlegendcafe-body3-info-fanpage i,
+.trungnguyenlegendcafe-body3-info-hotline i {
+    padding-right: 10px;
+}
+
+.trungnguyenlegendcafe-body3-googlemaps {
+    display: flex;
+    justify-content: center;
+    background-color: #ebebeb;
+    height: 608px;
+    margin: 40px 165px 0 165px;
+}
+
+@media screen and (max-width: 1024px) {
+    .trungnguyenlegendcafe-body3-googlemaps {
+        margin: 45px;
+    }
+    .trungnguyenlegendcafe-body3-text-heading { 
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .trungnguyenlegendcafe-body3-text-heading { 
+        text-align: center;
+        font-size: 18px;
+    }
+    .trungnguyenlegendcafe-body3-info {
+        display: block;
+        margin: 20px;
+    }
+    .trungnguyenlegendcafe-body3-info-maps,
+    .trungnguyenlegendcafe-body3-info-fanpage,
+    .trungnguyenlegendcafe-body3-info-hotline {
+        margin: 20px 80px;
+    }
+}
