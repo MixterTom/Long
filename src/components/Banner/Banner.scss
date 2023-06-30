@@ -1,0 +1,63 @@
+
+// desktop
+@media only screen and (min-width: 768px) {
+    .qa-banner-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .qa-sub-banner-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .qa-banner-m {
+        display: none;
+    }
+
+    .qa-sub-banner-m {
+        display: none;
+    }
+}
+
+// Iphone 8+
+@media only screen and (max-width: 415px) and (min-width: 375px){
+    .qa-banner-d {
+        display: none;
+    }
+
+    .qa-sub-banner-d {
+        display: none;
+    }
+
+    .qa-banner-m {
+        width: 100%;
+        height: auto;
+    }
+
+    .qa-sub-banner-m {
+        width: 100%;
+        height: auto;
+    }
+}
+
+// IPad Pro
+@media only screen and (max-width: 1024px) and (min-width: 416px){
+    .qa-banner-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .qa-sub-banner-d {
+        width: 100%;
+        height: auto;
+    }
+
+    .qa-banner-m {
+        display: none;
+    }
+
+    .qa-sub-banner-m {
+        display: none;
+    }
+}

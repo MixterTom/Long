@@ -20,7 +20,7 @@ const TrungNguyen_Body7 = () => {
         </div>
 
         <div className="trungnguyen-body7-wrap-products row">
-          <div className="trungnguyen-body7-product col">
+          <div className="trungnguyen-body7-product col-lg-4">
             <img src={imgProduct1Body7} alt="trungnguyen-body7-product-img" />
             <h4 className="trungnguyen-body7-product-heading">CÀ PHÊ I <br /> KHÁT VỌNG KHỞI NGHIỆP</h4>
             <p className="trungnguyen-body7-product-para">
@@ -28,11 +28,11 @@ const TrungNguyen_Body7 = () => {
             </p>
             <a href="" className="trungnguyen-body7-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body7-product col">
+          <div className="trungnguyen-body7-product col-lg-4">
             <img src={imgProduct2Body7} alt="trungnguyen-body7-product-img" />
             <h4 className="trungnguyen-body7-product-heading">CÀ PHÊ S <br />CHINH PHỤC THÀNH CÔNG</h4>
             <p className="trungnguyen-body7-product-para">
@@ -40,11 +40,11 @@ const TrungNguyen_Body7 = () => {
             </p>
             <a href="" className="trungnguyen-body7-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body7-product col">
+          <div className="trungnguyen-body7-product col-lg-4">
             <img src={imgProduct3Body7} alt="trungnguyen-body7-product-img" />
             <h4 className="trungnguyen-body7-product-heading">CÀ PHÊ NÂU <br />SỨC SỐNG ĐẠI NGÀN</h4>
             <p className="trungnguyen-body7-product-para">
@@ -52,7 +52,7 @@ const TrungNguyen_Body7 = () => {
             </p>
             <a href="" className="trungnguyen-body7-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
         </div>

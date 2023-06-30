@@ -49,7 +49,7 @@ const TrungNguyenLegend_Body5 = () => {
         </div>
 
         <div className="trungnguyenlegend-body5-products row">
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct1}
@@ -83,7 +83,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct2}
@@ -117,7 +117,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct3}
@@ -187,7 +187,7 @@ const TrungNguyenLegend_Body5 = () => {
           className="trungnguyenlegend-body5-products row"
           style={{ marginBottom: "40px" }}
         >
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div
               className="trungnguyenlegend-body5-product-img"
               style={{ padding: "10px" }}
@@ -220,7 +220,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div
               className="trungnguyenlegend-body5-product-img"
               style={{ padding: "10px" }}
@@ -253,7 +253,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div
               className="trungnguyenlegend-body5-product-img"
               style={{ padding: "10px" }}
@@ -297,7 +297,7 @@ const TrungNguyenLegend_Body5 = () => {
           </div>
           <div className="trungnguyenlegend-body5-wrap-box-button">
             Xem thêm
-            <i class="bi bi-chevron-right"></i>
+            <i className="bi bi-chevron-right"></i>
           </div>
 
           <div className="trungnguyenlegend-body5-wrap-box-img">
@@ -335,7 +335,7 @@ const TrungNguyenLegend_Body5 = () => {
         </div>
 
         <div className="trungnguyenlegend-body5-products row">
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct7}
@@ -364,7 +364,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct8}
@@ -393,7 +393,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct9}
@@ -458,7 +458,7 @@ const TrungNguyenLegend_Body5 = () => {
         </div>
 
         <div className="trungnguyenlegend-body5-products row">
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct10}
@@ -485,7 +485,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct11}
@@ -512,7 +512,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-4">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct12}
@@ -596,7 +596,7 @@ const TrungNguyenLegend_Body5 = () => {
         </div>
 
         <div className="trungnguyenlegend-body5-products row">
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-3">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct13}
@@ -629,7 +629,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-3">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct14}
@@ -661,7 +661,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-3">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct15}
@@ -693,7 +693,7 @@ const TrungNguyenLegend_Body5 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body5-product col-auto">
+          <div className="trungnguyenlegend-body5-product col-lg-3">
             <div className="trungnguyenlegend-body5-product-img">
               <img
                 src={imgProduct16}

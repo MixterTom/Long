@@ -37,7 +37,8 @@ const TrungNguyen_Body6 = () => {
         </div>
 
         <div className="trungnguyen-body6-products row">
-          <div className="trungnguyen-body6-product col-auto">
+          <div className="col-lg-1"></div>
+          <div className="trungnguyen-body6-product col-lg-2">
             <img src={imgProduct1Body6} alt="trungnguyen-body6-product-img" />
             <h4 className="trungnguyen-body6-product-heading">CHẾ PHIN 1</h4>
             <p className="trungnguyen-body6-product-para">
@@ -45,11 +46,11 @@ const TrungNguyen_Body6 = () => {
             </p>
             <a href="" className="trungnguyen-body6-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body6-product col-auto">
+          <div className="trungnguyen-body6-product col-lg-2">
             <img src={imgProduct2Body6} alt="trungnguyen-body6-product-img" />
             <h4 className="trungnguyen-body6-product-heading">CHẾ PHIN 2</h4>
             <p className="trungnguyen-body6-product-para">
@@ -57,11 +58,11 @@ const TrungNguyen_Body6 = () => {
             </p>
             <a href="" className="trungnguyen-body6-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body6-product col-auto">
+          <div className="trungnguyen-body6-product col-lg-2">
             <img src={imgProduct3Body6} alt="trungnguyen-body6-product-img" />
             <h4 className="trungnguyen-body6-product-heading">CHẾ PHIN 3</h4>
             <p className="trungnguyen-body6-product-para">
@@ -69,11 +70,11 @@ const TrungNguyen_Body6 = () => {
             </p>
             <a href="" className="trungnguyen-body6-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body6-product col-auto">
+          <div className="trungnguyen-body6-product col-lg-2">
             <img src={imgProduct4Body6} alt="trungnguyen-body6-product-img" />
             <h4 className="trungnguyen-body6-product-heading">CHẾ PHIN 4</h4>
             <p className="trungnguyen-body6-product-para">
@@ -81,11 +82,11 @@ const TrungNguyen_Body6 = () => {
             </p>
             <a href="" className="trungnguyen-body6-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body6-product col-auto">
+          <div className="trungnguyen-body6-product col-lg-2">
             <img src={imgProduct5Body6} alt="trungnguyen-body6-product-img" />
             <h4 className="trungnguyen-body6-product-heading">CHẾ PHIN 5</h4>
             <p className="trungnguyen-body6-product-para">
@@ -93,7 +94,7 @@ const TrungNguyen_Body6 = () => {
             </p>
             <a href="" className="trungnguyen-body6-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
         </div>

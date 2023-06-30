@@ -90,7 +90,7 @@ function HomePage() {
               className="home-page-banner1"
               src={homebanner1}
               alt=""
-              style={{ width: "100%", height: "600px" }}
+              style={{ width: "100%", height: "700px" }}
             />
             <div>
               <img
@@ -106,7 +106,7 @@ function HomePage() {
               className="home-page-banner2"
               src={homebanner2}
               alt=""
-              style={{ width: "100%", height: "600px" }}
+              style={{ width: "100%", height: "700px" }}
             />
             <div>
               <img
@@ -122,7 +122,7 @@ function HomePage() {
               className="home-page-banner3"
               src={homebanner3}
               alt=""
-              style={{ width: "100%", height: "600px" }}
+              style={{ width: "100%", height: "700px" }}
             />
             <div>
               <img
@@ -182,7 +182,7 @@ function HomePage() {
                   className="item-readmore-img"
                   style={{ backgroundImage: `url(${readmorelogo})` }}
                 ></div>
-                <a className="item-readmore-img-readmore" href="">
+                <a className="item-readmore-img-readmore" href="/khong-gian-trung-nguyen-legend-cafe">
                   {" "}
                   Xem Thêm
                 </a>
@@ -203,7 +203,7 @@ function HomePage() {
                   className="item-readmore-img"
                   style={{ backgroundImage: `url(${readmorelogo})` }}
                 ></div>
-                <a className="item-readmore-img-readmore" href="">
+                <a className="item-readmore-img-readmore" href="/trungnguyenecoffee">
                   {" "}
                   Xem Thêm
                 </a>

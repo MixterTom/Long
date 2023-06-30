@@ -23,7 +23,10 @@ const TrungNguyen_Body8 = () => {
         </div>
 
         <div className="trungnguyen-body8-products row">
-          <div className="trungnguyen-body8-product col-auto">
+          <div className="col-lg-1">
+            
+          </div>
+          <div className="trungnguyen-body8-product col-lg-2">
             <img src={imgProduct1Body8} alt="trungnguyen-body8-product-img" />
             <h4 className="trungnguyen-body8-product-heading">CULI ROBUSTA</h4>
             <p className="trungnguyen-body8-product-para">
@@ -31,11 +34,11 @@ const TrungNguyen_Body8 = () => {
             </p>
             <a href="" className="trungnguyen-body8-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body8-product col-auto">
+          <div className="trungnguyen-body8-product col-lg-2">
             <img src={imgProduct2Body8} alt="trungnguyen-body8-product-img" />
             <h4 className="trungnguyen-body8-product-heading">PREMIUM CULI</h4>
             <p className="trungnguyen-body8-product-para">
@@ -43,11 +46,11 @@ const TrungNguyen_Body8 = () => {
             </p>
             <a href="" className="trungnguyen-body8-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body8-product col-auto">
+          <div className="trungnguyen-body8-product col-lg-2">
             <img src={imgProduct3Body8} alt="trungnguyen-body8-product-img" />
             <h4 className="trungnguyen-body8-product-heading">
               ARABICA ROBUSTA
@@ -57,11 +60,11 @@ const TrungNguyen_Body8 = () => {
             </p>
             <a href="" className="trungnguyen-body8-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body8-product col-auto">
+          <div className="trungnguyen-body8-product col-lg-2">
             <img src={imgProduct4Body8} alt="trungnguyen-body8-product-img" />
             <h4 className="trungnguyen-body8-product-heading">CULI ARABICA</h4>
             <p className="trungnguyen-body8-product-para">
@@ -69,11 +72,11 @@ const TrungNguyen_Body8 = () => {
             </p>
             <a href="" className="trungnguyen-body8-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
-          <div className="trungnguyen-body8-product col-auto">
+          <div className="trungnguyen-body8-product col-lg-2">
             <img src={imgProduct5Body8} alt="trungnguyen-body8-product-img" />
             <h4 className="trungnguyen-body8-product-heading">
               CÀ PHÊ HẠT SỐ 8
@@ -83,7 +86,7 @@ const TrungNguyen_Body8 = () => {
             </p>
             <a href="" className="trungnguyen-body8-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
         </div>

@@ -1,0 +1,101 @@
+// Desktop
+@media only screen and (min-width: 1026px) {
+    .qa-article-wrapper {
+        background-color: #f4f4f4;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-clip: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .qa-article-container {
+        padding: 10px;
+    }
+
+    .qa-article-xemthem {
+        overflow: hidden;
+        height: 60px;
+    }
+
+    .qa-article-readmore {
+        overflow: hidden;
+        height: 70px;
+        position: relative;
+    }
+
+    .qa-hidden {
+        display: none;
+    }
+
+}
+
+// Iphone 8+
+@media only screen and (max-width: 415px) and (min-width: 375px) {
+    .qa-article-wrapper {
+        margin-top: 25px;
+        background-color: #f4f4f4;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-clip: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .qa-article-container {
+        padding: 10px;
+    }
+
+    .qa-article-xemthem {
+        overflow: hidden;
+        height: 60px;
+    }
+
+    .qa-article-readmore {
+        overflow: hidden;
+        height: 70px;
+        position: relative;
+    }
+
+    .qa-hidden {
+        display: none;
+    }
+}
+
+// IPad Pro
+@media only screen and (max-width: 1025px) and (min-width: 769px) {
+    .qa-article-wrapper {
+        background-color: #f4f4f4;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-clip: border-box;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    .qa-article-container {
+        padding: 10px;
+    }
+
+    .qa-article-xemthem {
+        overflow: hidden;
+        height: 60px;
+    }
+
+    .qa-article-readmore {
+        overflow: hidden;
+        height: 70px;
+        position: relative;
+    }
+
+    .qa-hidden {
+        display: none;
+    }
+}

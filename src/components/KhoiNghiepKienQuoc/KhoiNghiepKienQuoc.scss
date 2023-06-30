@@ -1,0 +1,214 @@
+// Desktop
+@media only screen and (min-width: 1026px) {
+    .qa-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .qa-content {
+        width: 1110px;
+        padding: 0 15px;
+
+    }
+
+    .qa-heading {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .qa-content-paragraph {
+        margin-bottom: 20px;
+        text-align: justify;
+        line-height: 1.8;
+        font-size: 100%;
+        color: rgb(97, 97, 97);
+    }
+
+    .qa-video-container {
+        width: 100%;
+    }
+
+    .qa-video {
+        height: 450px;
+        width: 800px;
+        margin: 50px auto;
+        position: relative;
+        transition: 250ms;
+    }
+}
+
+// Iphone 8+
+@media only screen and (max-width: 415px) and (min-width: 375px) {
+    .qa-wrapper {
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .qa-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .qa-content {
+        width: 92%;
+    }
+
+    .qa-heading {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .qa-content-paragraph {
+        margin-bottom: 20px;
+        // text-align: justify;
+        line-height: 1.8;
+        font-size: 100%;
+        color: rgb(97, 97, 97);
+    }
+
+    .qa-read-more {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        overflow-y: hidden;
+        height: 26px;
+        display: block;
+    }
+
+    .qa-more-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .qa-more-icon {
+        overflow-y: hidden;
+        font-weight: 600;
+        transition: 250ms;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 10px;
+        width: 24px;
+        height: 24px;
+    }
+    
+    .qa-read-more-btn {
+        height: 20px;
+        line-height: 10px;
+        font-size: 10px;
+        padding: 3px 20px;
+        padding-bottom: 0;
+        transition: all ease .3s;   
+        color: #333;
+        border: 1px dashed ;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        border-left: none;
+        margin-top: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .qa-video-container {
+        width: 100%;
+    }
+
+    .qa-video {
+        height: 220px;
+        width: 392px;
+        position: relative;
+        transition: 250ms;
+        margin-bottom: 20px;
+    }
+}
+
+// IPad Pro
+@media only screen and (max-width: 1025px) and (min-width: 769px) {
+    .qa-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .qa-content {
+        padding: 0 15px;
+
+    }
+
+    .qa-heading {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .qa-content-paragraph {
+        margin-bottom: 20px;
+        text-align: justify;
+        line-height: 1.8;
+        font-size: 12px;
+        color: rgb(97, 97, 97);
+    }
+
+    .qa-read-more {
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+        height: 42px;
+        display: block;
+    }
+
+    .qa-more-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .qa-more-icon {
+        overflow-y: hidden;
+        font-weight: 600;
+        transition: 250ms;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 10px;
+        width: 42px;
+        height: 42px;
+    }
+    
+    .qa-read-more-btn {
+        height: 30px;
+        line-height: 20px;
+        font-size: 10px;
+        padding: 3px 20px;
+        padding-bottom: 0;
+        transition: all ease .3s;
+        color: #333;
+        border: 1px dashed ;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        text-align: center;
+        border-left: none;
+        margin-top: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        font-weight: 600;
+    }
+
+    .qa-video-container {
+        width: 100%;
+    }
+
+    .qa-video {
+        height: 450px;
+        width: 800px;
+        margin: 50px auto;
+        position: relative;
+        transition: 250ms;
+    }
+}

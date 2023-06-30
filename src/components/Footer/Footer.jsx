@@ -8,8 +8,8 @@ import trungnguyen from "../../img/tn.jpg";
 function Footer() {
   return (
     <>
-      <div className="footer row">
-        <div className="footer-trungnguyen col-lg-4">
+      <div className="footer">
+        <div className="footer-trungnguyen">
           <div className="footer-trungnguyen-img">
             <img src={newlogo} alt="" />
           </div>
@@ -27,7 +27,7 @@ function Footer() {
            
           </div>
         </div>
-        <div className="footer-link col-lg-4">
+        <div className="footer-link">
           <div className="footer-link-header">LIÊN KẾT NHANH</div>
           <div className="footer-link-body">
             <div className="footer-link-body-row">
@@ -49,30 +49,32 @@ function Footer() {
             </div>
           </div>
           <div className="footer-link-partner">
-            <img
+            <a href="/trung-nguyen-legend"> <img
               className="footer-link-partner-trungnguyenold"
               src={oldlogo}
               alt=""
-            />
-            <img
-              className="footer-link-partner-trungnguyen"
-              src={trungnguyen}
-              alt=""
-            />
-            <img
+            /></a>
+           <a href="/trung-nguyen">   <img
+            
+            className="footer-link-partner-trungnguyen"
+            src={trungnguyen}
+            alt=""
+          /></a>
+          <a href="/g7"> <img
               className="footer-link-partner-trungnguyeng7"
               src={g7}
               alt=""
-            />
+            /></a>
+           
           </div>
         </div>
-        <div className="footer-social col-lg-4">
+        <div className="footer-social">
           <div className="footer-social-head">SOCIAL MEDIA</div>
           <div className="footer-social-body">
-            <a href="">Facebook</a>
-            <a href="">Instagram</a>
-            <a href="">Youtube</a>
-            <a href="">Tiktok</a>
+            <a href="https://www.facebook.com/trungnguyenlegend">Facebook</a>
+            <a href="https://www.instagram.com/trungnguyenlegend/">Instagram</a>
+            <a href="https://www.youtube.com/c/trungnguyen">Youtube</a>
+            <a href="https://www.tiktok.com/@trungnguyenlegend">Tiktok</a>
             <img src={dmca} alt="" />
           </div>
         </div>

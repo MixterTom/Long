@@ -13,17 +13,24 @@
     max-width: 1140px;
     height: 100%;
     overflow: hidden;
-    margin-left: 120px;
+    margin-left: 150px;
 }
 
 .trungnguyenecoffee-body3-imgs {
     display: flex;
     justify-content: space-around;
+   
+   
 }
 
 .trungnguyenecoffee-body3-img-right1,
 .trungnguyenecoffee-body3-img-right2 {
     margin-bottom: 16px;
+ 
+}
+.trungnguyenecoffee-body3-img-left img{
+    margin-left: -150px;
+    margin-top: -5px;
 }
 
 .trungnguyenecoffee-body3-info {

@@ -34,6 +34,7 @@
 
 }
 .home-page-footer{
+    margin-top: -170px;
     border-bottom: 2px solid #ede9e9;
 }
 .homepage2{
@@ -118,14 +119,14 @@
     margin-right: 60px!important;
     width: 45px;
     height: 45px;
-    z-index: 10;
+    z-index: 1;
     margin-top: -50px;
 }
 .homepage2  .slick-prev{
     margin-left: 60px!important;
     width: 45px;
     height: 45px;
-    z-index: 10 !important;
+    z-index: 1 !important;
     margin-top: -50px;
     
 }
@@ -649,7 +650,7 @@
     }
     .homepage3-footer-responsive{
         display: flex;
-        z-index: 10;
+        z-index: 1;
         margin-top: 230px;
     }
     .homepage4 .homepage4-img{

@@ -25,7 +25,7 @@ const G7_Body3 = () => {
 
         <div className="g7-body3-wrap-products">
           <div className="g7-body3-wrap-product row">
-            <div className="g7-body3-wrap-product-info col">
+            <div className="g7-body3-wrap-product-info col-lg-6">
               <div className="g7-body3-wrap-product-heading">
                 CÀ PHÊ HÒA TAN G7 3IN1
               </div>
@@ -54,7 +54,7 @@ const G7_Body3 = () => {
             <div className="g7-body3-wrap-product-img col">
               <img src={imgProduct2} alt="g7-body3-wrap-product1-img" />
             </div>
-            <div className="g7-body3-wrap-product-info col">
+            <div className="g7-body3-wrap-product-info col-lg-6">
               <div className="g7-body3-wrap-product-heading">
                 CÀ PHÊ HÒA TAN G7 GU MẠNH X2
               </div>
@@ -76,7 +76,7 @@ const G7_Body3 = () => {
           </div>
 
           <div className="g7-body3-wrap-product row">
-            <div className="g7-body3-wrap-product-info col">
+            <div className="g7-body3-wrap-product-info col-lg-6">
               <div className="g7-body3-wrap-product-heading">
                 CÀ PHÊ HÒA TAN G7 2IN1
               </div>
@@ -104,7 +104,7 @@ const G7_Body3 = () => {
             <div className="g7-body3-wrap-product-img col">
               <img src={imgProduct4} alt="g7-body3-wrap-product1-img" />
             </div>
-            <div className="g7-body3-wrap-product-info col">
+            <div className="g7-body3-wrap-product-info col-lg-6">
               <div className="g7-body3-wrap-product-heading">
                 CÀ PHÊ HÒA TAN G7 ĐEN
               </div>

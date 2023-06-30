@@ -1,0 +1,19 @@
+.myBtn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #555555;
+  border: none;
+}
+
+.for-Ipad{
+  display: none;
+}
+
+@media screen and (max-width: 769px) and (min-width: 376px) {
+  .not-for-small{
+      display: none;
+  }
+  .for-Ipad{
+      display: block;
+  }
+}

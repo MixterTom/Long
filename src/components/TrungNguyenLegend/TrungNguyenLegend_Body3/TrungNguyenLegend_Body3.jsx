@@ -19,7 +19,7 @@ const TrungNguyenLegend_Body3 = () => {
         </div>
 
         <div className="trungnguyenlegend-body3-products row">
-          <div className="trungnguyenlegend-body3-product col-auto">
+          <div className="col-lg-6 trungnguyenlegend-body3-product ">
             <div className="trungnguyenlegend-body3-product-img">
               <img
                 src={imgProduct1}
@@ -57,7 +57,7 @@ const TrungNguyenLegend_Body3 = () => {
             </div>
           </div>
 
-          <div className="trungnguyenlegend-body3-product col-auto">
+          <div className="col-lg-6 trungnguyenlegend-body3-product">
             <div className="trungnguyenlegend-body3-product-img">
               <img
                 src={imgProduct2}

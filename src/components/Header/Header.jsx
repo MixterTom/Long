@@ -1,7 +1,7 @@
-
 import logonew from "../../img/new-logo.jpg";
 import "./Header.scss";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { BodyContext } from "../../../utils/BodyContext";
 
 function Header() {
   const [show1, setShow1] = useState(false);
@@ -16,20 +16,20 @@ function Header() {
   const option4 = document.querySelector(".dashboard-nav-dropdown4");
   const option5 = document.querySelector(".dashboard-nav-dropdown5");
   const option6 = document.querySelector(".dashboard-nav");
-  
+
+  const theme = useContext(BodyContext);
   useEffect(() => {
     const scrollTrigger = 60;
-    window.onscroll =function(){
-      const header = document.querySelector(".header-img-logo");
-      console.log(header)
-      if(window.scrollY >= scrollTrigger)
-      {
-        header.classList.add("inverted")
-      }else{
-        header.classList.remove("inverted")
+    window.onscroll = function () {
+      const header = document.querySelector(".header");
+      console.log(header);
+      if (window.scrollY >= scrollTrigger) {
+        header.classList.add("inverted");
+      } else {
+        header.classList.remove("inverted");
       }
-    }
-  })
+    };
+  });
   function inputShow() {
     setShow6(!show6);
     if (show6) {
@@ -56,7 +56,6 @@ function Header() {
   function inputShow2() {
     setShow2(!show2);
     if (show2) {
-    
       option2.classList.add("show");
       option2.classList.add("dropdown");
       option1.classList.remove("show");
@@ -70,7 +69,6 @@ function Header() {
   function inputShow3() {
     setShow3(!show3);
     if (show3) {
- 
       option3.classList.add("show");
       option3.classList.add("dropdown");
       option2.classList.remove("show");
@@ -84,7 +82,6 @@ function Header() {
   function inputShow4() {
     setShow4(!show4);
     if (show4) {
-   
       option4.classList.add("show");
       option4.classList.add("dropdown");
       option2.classList.remove("show");
@@ -144,7 +141,7 @@ function Header() {
                   style={{
                     marginLeft: "-30px",
                     borderRight: "1px solid #fff",
-                    width: "321px",
+                    width: "301px",
                   }}
                   href="/homepage"
                   className="dashboard-nav-item"
@@ -159,7 +156,7 @@ function Header() {
                   className="dashboard-nav-dropdown1"
                 >
                   <a
-                    href="#!"
+                    href="#"
                     style={{ borderRight: "1px solid #fff" }}
                     className="dashboard-nav-item"
                   >
@@ -167,20 +164,55 @@ function Header() {
                     <i className="dashboard-icon bi bi-caret-down-fill"></i>
                   </a>{" "}
                   <div className="dashboard-nav-dropdown-menu">
-                    <a
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
-                      href="#"
-                      className="dashboard-nav-dropdown-item"
+                    <div
+                      onClick={() => {
+                        theme.toggleBody("body1");
+                      }}
                     >
-                      THÔNG ĐIỆP NHÀ SÁNG LẬP
-                    </a>
-                    <a
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
-                      href="#"
-                      className="dashboard-nav-dropdown-item"
+                      <a
+                        style={{
+                          borderRight: "1px solid #fff",
+                          width: "300px",
+                        }}
+                        href="/thong-diep-nha-sang-lap"
+                        className="dashboard-nav-dropdown-item"
+                      >
+                        THÔNG ĐIỆP NHÀ SÁNG LẬP
+                      </a>
+                    </div>
+
+                    <div
+                      onClick={() => {
+                        theme.toggleBody("body2");
+                      }}
                     >
-                      TẦM NHÌN - XỨ MẠNG - GIÁ TRỊ CỐT LÕI
-                    </a>
+                      <a
+                        style={{
+                          borderRight: "1px solid #fff",
+                          width: "300px",
+                        }}
+                        href="/tam-nhin-su-mang-gia-tri-cot-loi"
+                        className="dashboard-nav-dropdown-item"
+                      >
+                        TẦM NHÌN - XỨ MẠNG - GIÁ TRỊ CỐT LÕI
+                      </a>
+                    </div>
+                    <div
+                      onClick={() => {
+                        theme.toggleBody("body3");
+                      }}
+                    >
+                      <a
+                        style={{
+                          borderRight: "1px solid #fff",
+                          width: "300px",
+                        }}
+                        href="/lich-su-phat-trien"
+                        className="dashboard-nav-dropdown-item"
+                      >
+                        LỊCH SỬ PHÁT TRIỂN
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div
@@ -190,18 +222,18 @@ function Header() {
                   className="dashboard-nav-dropdown2"
                 >
                   <a
-                    href="#!"
+                    href="/hanh-trinh-lap-chi-vi-dai-khoi-nghiep-kien-quoc-cho-thanh-nien-viet"
                     style={{ borderRight: "1px solid #fff" }}
                     className="dashboard-nav-item "
                   >
                     {" "}
                     HÀNH TRÌNH LẬP CHÍ VĨ ĐẠI - KHỞI NGHIỆP KIẾN QUỐC{" "}
-                    <i className="dashboard-icon bi bi-caret-down-fill"></i>
                   </a>
+                  <i className="dashboard-icon-hanhtrinh bi bi-caret-down-fill"></i>
                   <div className="dashboard-nav-dropdown-menu">
                     <a
-                      href="#"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      href="/hanh-trinh-tu-trai-tim"
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       HÀNH TRÌNH TỪ TRÁI TIM
@@ -213,7 +245,7 @@ function Header() {
                     style={{
                       marginLeft: "-30px",
                       borderRight: "1px solid #fff",
-                      width: "321px",
+                      width: "301px",
                     }}
                     href="#"
                     className="dashboard-nav-item active"
@@ -235,7 +267,7 @@ function Header() {
                     style={{
                       marginLeft: "-30px",
                       borderRight: "1px solid #fff",
-                      width: "321px",
+                      width: "301px",
                     }}
                     href="/loi-song-tinh-thuc"
                     className="dashboard-nav-item"
@@ -262,21 +294,21 @@ function Header() {
                   <div className="dashboard-nav-dropdown-menu">
                     <a
                       href="trung-nguyen-legend"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN LEGEND
                     </a>
                     <a
                       href="/trung-nguyen"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN
                     </a>
                     <a
                       href="/g7"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       {" "}
@@ -301,14 +333,14 @@ function Header() {
                   <div className="dashboard-nav-dropdown-menu">
                     <a
                       href="/trungnguyenecoffee"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN E-COFFEE
                     </a>
                     <a
                       href="/khong-gian-trung-nguyen-legend-cafe"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN LEGEND CAFE
@@ -332,27 +364,27 @@ function Header() {
                   <div className="dashboard-nav-dropdown-menu">
                     <a
                       href="#"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       THẾ GIỚI CÀ PHÊ
                     </a>
                     <a
                       href="#"
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       className="dashboard-nav-dropdown-item"
                     >
                       TRUNG NGUYÊN HEALING
                     </a>
                     <a
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       href="#"
                       className="dashboard-nav-dropdown-item"
                     >
                       THÀNH PHỐ CÀ PHÊ
                     </a>
                     <a
-                      style={{ borderRight: "1px solid #fff", width: "320px" }}
+                      style={{ borderRight: "1px solid #fff", width: "300px" }}
                       href="#"
                       className="dashboard-nav-dropdown-item"
                     >
@@ -363,18 +395,14 @@ function Header() {
               </div>
               <div className="dashboard-social">
                 <a href="https://www.facebook.com/trungnguyenlegend/">
-                <i className="bi bi-facebook"></i>
+                  <i className="bi bi-facebook"></i>
                 </a>
                 <a href="https://plus.google.com/+trungnguyen">
-                <i className="bi bi-google"></i>
-                  </a>
-                  <a href="https://www.youtube.com/user/TapDoanTrungNguyen">
-                  
-                <i className="bi bi-youtube"></i>
-                  </a>
-    
-              
-                
+                  <i className="bi bi-google"></i>
+                </a>
+                <a href="https://www.youtube.com/user/TapDoanTrungNguyen">
+                  <i className="bi bi-youtube"></i>
+                </a>
               </div>
             </div>
           </div>

@@ -8,7 +8,7 @@ const TrungNguyen_Body3 = () => {
     <>
       <div className="trungnguyen-body3-wrap">
         <div className="trungnguyen-body3-wrap-product row">
-          <div className="trungnguyen-body3-wrap-product-info col">
+          <div className="trungnguyen-body3-wrap-product-info col-lg-6">
             <div className="trungnguyen-body3-wrap-product-heading">
               <img
                 src={imgHeading}
@@ -40,7 +40,7 @@ const TrungNguyen_Body3 = () => {
             </div>
           </div>
 
-          <div className="trungnguyen-body3-wrap-product-img col">
+          <div className="trungnguyen-body3-wrap-product-img col-lg-6">
             <img src={imgProduct} alt="trungnguyen-body3-wrap-product-img" />
           </div>
         </div>

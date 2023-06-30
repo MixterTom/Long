@@ -30,9 +30,13 @@
 .trungnguyen-body3-wrap-product-para {
     text-align: justify;
     color: #616161;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.8;
-    margin: 0 0 20px 0;
+    margin: 0 0 20px 110px;
+    word-break: break-all;
+    max-width: 500px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .trungnguyen-body3-wrap-product-preorder {
@@ -70,6 +74,7 @@
     filter: grayscale(100%);
     transition: 0.3s;
     margin-top: 40px;
+
 }
 
 .trungnguyen-body3-wrap-product-img img:hover {

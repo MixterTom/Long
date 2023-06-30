@@ -9,11 +9,11 @@ const TrungNguyenECoffee_Body3 = () => {
         <>
             <div className="trungnguyenecoffee-body3-wrap">
                 <div className="trungnguyenecoffee-body3-imgs row">
-                    <div className="trungnguyenecoffee-body3-img-left col">
+                    <div className="trungnguyenecoffee-body3-img-left col-lg-6">
                         <img src={imgLeftBody3} alt="trungnguyenecoffeebody3imgleft" />
                     </div>
 
-                    <div className="trungnguyenecoffee-body3-img-right col">
+                    <div className="trungnguyenecoffee-body3-img-right col-lg-6">
                         <div className="trungnguyenecoffee-body3-img-right1">
                             <img src={imgRight1Body3} alt="trungnguyenecoffeebody3imgright1" />
                         </div>
@@ -30,17 +30,17 @@ const TrungNguyenECoffee_Body3 = () => {
 
                 <div className="trungnguyenecoffee-body3-info">
                     <div className="trungnguyenecoffee-body3-info-hotline">
-                        <i class="bi bi-telephone"></i>
+                        <i className="bi bi-telephone"></i>
                         Hotline: 088 673 1188   
                     </div>
 
                     <div className="trungnguyenecoffee-body3-info-fanpage">
-                        <i class="bi bi-facebook"></i>
+                        <i className="bi bi-facebook"></i>
                         Fanpage E-coffee
                     </div>
 
                     <div className="trungnguyenecoffee-body3-info-maps">
-                        <i class="bi bi-facebook"></i>
+                        <i className="bi bi-facebook"></i>
                         Danh sách không gian
                     </div>
                 </div>

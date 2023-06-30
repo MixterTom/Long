@@ -1,0 +1,68 @@
+// Desktop
+@media only screen and (min-width: 1026px) {
+    .qa-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .qa-heading h2{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .qa-heart-content {
+        width: 760px;
+        padding: 0 15px;
+        margin-bottom: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .qa-content-image {
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+// Iphone 8+
+@media only screen and (max-width: 415px) and (min-width: 375px) {
+    .qa-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .qa-heading h2{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .qa-heart-content {
+        width: 400px;
+        padding: 0 15px;
+        margin-bottom: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .qa-content-image {
+        width: 100%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+// IPad Pro
+@media only screen and (max-width: 1025px) and (min-width: 769px) {
+    .qa-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .qa-heading h2{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .qa-heart-content {
+        width: 600px;
+        padding: 0 15px;
+        margin-bottom: 35px;
+    }
+
+    .qa-content-image {
+        width: 100%;
+    }
+}

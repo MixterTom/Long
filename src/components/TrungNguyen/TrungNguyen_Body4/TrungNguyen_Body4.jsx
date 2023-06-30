@@ -10,38 +10,46 @@ const TrungNguyen_Body4 = () => {
 
         <div className="trungnguyen-body4-wrap-products row">
           <div className="trungnguyen-body4-product col">
-            <img src={imgProduct1Body4} alt="trungnguyen-body4-product-img" />
+            <div className="trungnguyen-body4-product-img">
+              <img src={imgProduct1Body4} alt="trungnguyen-body4-product-img" />
+            </div>
             <h4 className="trungnguyen-body4-product-heading">GOURMET BLEND</h4>
             <p className="trungnguyen-body4-product-para">
               VỊ ĐẬM ĐÀ. SÁNH ĐẶC TRƯNG
             </p>
             <a href="" className="trungnguyen-body4-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
           <div className="trungnguyen-body4-product col">
-            <img src={imgProduct2Body4} alt="trungnguyen-body4-product-img" />
+            <div className="trungnguyen-body4-product-img">
+
+             <img src={imgProduct2Body4} alt="trungnguyen-body4-product-img" />
+            </div>
             <h4 className="trungnguyen-body4-product-heading">PREMIUM BLEND</h4>
             <p className="trungnguyen-body4-product-para">
               VỊ MẠNH. HƯƠNG THƠM NỒNG
             </p>
             <a href="" className="trungnguyen-body4-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
 
           <div className="trungnguyen-body4-product col">
+            <div className="trungnguyen-body4-product-img">
+
             <img src={imgProduct3Body4} alt="trungnguyen-body4-product-img" />
+            </div>
             <h4 className="trungnguyen-body4-product-heading">HOUSE BLEND</h4>
             <p className="trungnguyen-body4-product-para">
               VỊ MẠNH. HƯƠNG THƠM NỒNG
             </p>
             <a href="" className="trungnguyen-body4-readmore">
               Đặt mua
-              <i class="bi bi-chevron-right"></i>
+              <i className="bi bi-chevron-right"></i>
             </a>
           </div>
         </div>

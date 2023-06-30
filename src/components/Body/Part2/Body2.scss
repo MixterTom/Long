@@ -1,0 +1,39 @@
+@keyframes fadeInUp {
+    0%{
+        opacity: 0;
+        -webkit-transform: translate3d(0,100%,0);
+        transform: translate3d(0,100%,0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.delay-0 {
+    animation-duration: 1000ms !important;
+}
+
+
+
+.wpb_animate_when_almost_visible {
+    opacity: 0;
+}
+
+.wpb_start_animation {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
