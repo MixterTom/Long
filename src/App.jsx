@@ -11,7 +11,9 @@ import {articles} from '../src/data/articles';
 import HanhTrinhHome from "../src/pages/HanhtrinhHome";
 import HanhTrinhTuTraiTim from "../src/pages/HanhTrinhTuTraiTim";
 import ArticleTemplate from "../src/pages/ArticleTemplate";
-
+import { articlesLong } from "./data/data";
+import Trietdao from "../src/pages/Trietdao";
+import Xemthem from "../src/Pages/Xemthem";
 
 function App() {
   const routes = []
@@ -24,6 +26,13 @@ function App() {
         />,
       })
     })
+    const routesLong = []
+    articlesLong.forEach((articleLong) => {
+      routesLong.push({
+        path: articleLong.path,
+        element: <Xemthem id={articleLong.id} page={articleLong.page} />,
+      });
+    });
   
 
   const router = createBrowserRouter([
@@ -83,8 +92,12 @@ function App() {
     {
       path: '/hanh-trinh-tu-trai-tim',
       element: <HanhTrinhTuTraiTim />,
+    },
+    {
+      path: "/ca-phe-triet-dao",
+      element: <Trietdao/>,
     }
-  ].concat(routes))
+  ].concat(routes).concat(routesLong));
 
   return(
     <>  

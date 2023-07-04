@@ -1,0 +1,439 @@
+.main-img {
+  margin-left: -1rem;
+  height: 38.9rem;
+  width: 89rem;
+}
+.banner-img {
+  display: flex;
+  margin-top: -9rem;
+  margin-left: -1rem;
+  width: 100vw;
+  height: 14rem;
+}
+
+.line {
+  margin-left: 0 !important;
+  width: 100vw;
+  height: 1px;
+  background-color: #dadada;
+}
+.middle-text {
+  display: flex;
+  margin-top: -1rem;
+  margin-bottom: 3.6rem;
+  justify-content: center;
+  align-items: center;
+  width: 73rem;
+  height: 6rem;
+  background-color: #fafafa;
+  // background-color: antiquewhite;
+}
+.middle-text-info {
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.47rem;
+}
+.list-big-blog {
+  margin: 3rem 0 3rem 0;
+}
+.blog-img {
+  margin-left: 2rem;
+  height: 12rem;
+  width: 18rem;
+}
+.blog-img-l {
+  margin-left: 2rem !important;
+  height: 13rem;
+  width: 18rem;
+}
+
+.link-text-title {
+  margin-left: 1rem;
+  display: flex;
+}
+.stand {
+  padding-right: 7px;
+  padding-left: 7px;
+  font-size: 12px;
+  color: #ffeff3;
+}
+.link-text-name {
+  margin-left: -1rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+.link-text-name:hover {
+  text-decoration: underline;
+}
+.link-text-date {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  font-weight: 400;
+}
+.link-text-date:hover {
+  text-decoration: underline;
+}
+.link-text-big {
+  text-decoration: none;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.link-text-content {
+  color: #6f6f6f;
+  text-decoration: none;
+}
+.link-text-content {
+  padding-top: 0.7rem;
+}
+.link-text-content-info {
+  font-family: "Times New Roman", Times, serif;
+  color: #6f6f6f;
+  text-decoration: none;
+}
+.link-text-button {
+  margin-top: 1rem;
+  border-radius: 20px;
+  height: 2rem;
+  background-color: #fafafa;
+  border-color: #ebebeb;
+  transition-delay: 1s ease;
+}
+.link-text-button:hover {
+  background-color: #000000;
+  color: #dadada;
+  border-color: #ebebeb;
+  transition: color 0.3s ease-out;
+}
+.button-text {
+  margin-top: 4px;
+  width: 7rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+.side-container {
+  display: flex;
+  margin-left: -2rem;
+}
+.holder-side {
+  height: 30rem;
+}
+.side-img {
+  width: 21rem;
+}
+.side-img2 {
+  display: flex;
+  margin-top: -25rem;
+  width: 21rem;
+  filter: grayscale(100%);
+}
+.side-img2:hover {
+  filter: grayscale(0%);
+}
+.side-img3 {
+  display: flex;
+  margin-top: -45rem;
+  width: 21rem;
+}
+.blog-text {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: flex;
+  position: relative;
+}
+.blog-text-side {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 1.17rem;
+}
+.text-side-line {
+  content: "";
+  position: absolute;
+  top: 0.6rem;
+  left: 8.5rem;
+  width: 12.5rem;
+  height: 4px;
+  background-color: #e6e6e6;
+}
+.small-container-list {
+  padding-bottom: 1rem;
+}
+.side-small-img {
+  width: 4.5rem;
+  height: 4rem;
+}
+
+.small-side-time {
+  padding-left: 5px;
+  font-size: 0.9rem;
+}
+.small-side-time-icon {
+  font-size: 0.9rem;
+}
+.small-side-date {
+  display: flex;
+  height: 1.4rem;
+}
+.small-side-cartory {
+  padding-left: 20px;
+  color: #9197aa;
+}
+.small-list-blog {
+  width: 23.8rem;
+}
+.hover-border {
+  width: 4.85rem;
+  height: 4.35rem;
+  border: 3px solid transparent;
+}
+.small-list-blog:hover {
+  background-color: #fdfdfd;
+  .hover-border {
+    cursor: pointer;
+    width: 4.85rem;
+    height: 4.35rem;
+    border-color: rgb(0, 0, 0);
+    transition: border 0.3s ease-out;
+  }
+}
+
+.side-time-text {
+  font-family: "Times New Roman", Times, serif;
+  width: 15rem;
+  font-size: 0.9rem;
+  color: #303030;
+}
+.side-time-text:hover {
+  cursor: pointer;
+  color: #cd9e3c;
+}
+.page-redirect {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.redirect-prev,
+.redirect-next,
+.page-redirect-sub,
+.redirect-last {
+  margin-top: 0.55rem;
+  font-family: "Times New Roman", Times, serif;
+  color: #9b9b9b;
+}
+.redirect-prev,
+.redirect-next,
+.page-redirect-sub,
+.redirect-last {
+  cursor: pointer;
+}
+.page-redirect-main {
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  color: #000000;
+  font-size: 1.5rem;
+}
+.redirect-last-text {
+  position: relative;
+  margin-top: -0.09rem;
+  font-weight: 700;
+}
+.redirect-last-icon-second {
+  position: absolute;
+  margin-left: -10px;
+}
+@media (min-width: 320px) and (max-width: 568px) {
+  .none-mobile {
+    display: none;
+  }
+  .flex-mobile {
+    display: flex;
+  }
+  .middle-text {
+    margin-left: 0.5rem !important;
+    background-color: #fafafa !important;
+    width: 18rem !important;
+  }
+  .blog-img {
+    width: 16rem !important;
+    height: 10rem !important;
+    margin-left: 1.5rem !important;
+    margin-bottom: 1rem;
+  }
+  .blog-container {
+    margin-left: 1.5rem !important;
+  }
+  .link-text-big {
+    font-size: 1rem !important;
+  }
+  .link-text-content-info {
+    font-size: 0.8rem !important;
+  }
+  .link-text-button {
+    width: 6.6rem;
+  }
+  .button-text {
+    margin-left: -0.6rem;
+    font-size: 0.7rem !important;
+  }
+  .blog-img-l {
+    height: 13rem !important;
+    width: 16.6rem !important;
+    margin-left: 1rem !important;
+    margin-bottom: 1rem;
+  }
+  .side-img {
+    margin-top: 6rem;
+    width: 90vw !important;
+    margin-left: 2.6rem;
+  }
+  .blog-text-side {
+    font-size: 1rem !important;
+    margin-left: 2.5rem !important;
+  }
+  .text-side-line {
+    margin-left: 1.3rem;
+    width: 10.6rem !important;
+  }
+  .side-img2 {
+    margin: 0 !important;
+  }
+  .side-img3 {
+    margin: 0 !important;
+  }
+  .small-container-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .holder-side {
+    height: 200vh !important;
+  }
+  .hover-border {
+    margin-left: 3rem;
+  }
+  .side-small-img {
+    margin-left: 0rem;
+  }
+  .small-side-cartory {
+    margin-left: 1rem !important;
+  }
+  .small-side-time {
+    font-size: 0.7rem !important;
+  }
+  .side-time-text {
+    font-size: 0.8rem !important;
+  }
+  .page-redirect {
+    display: flex;
+    width: 15rem !important;
+    font-size: 0.9rem !important;
+    margin-top: -100rem !important;
+    margin-left: 2rem !important;
+  }
+  .side-img2 {
+    width: 89vw !important;
+    margin-left: 2.59rem !important;
+    margin-top: -18rem !important;
+  }
+  .side-img3 {
+    width: 89vw !important;
+    margin-left: 2.59rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 3rem !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .ipad-none {
+    display: none;
+  }
+  .middle-text {
+    width: 58.6rem !important;
+    margin-left: -3rem !important;
+  }
+  .middle-text-info {
+    margin-top: 0.8rem;
+    font-size: 1.3rem !important;
+  }
+  .list-big-blog {
+    margin-left: -5rem !important;
+  }
+  .blog-img {
+    width: 22.7vw !important;
+    height: 11.5vh !important;
+  }
+  .blog-img-l {
+    width: 22.7vw !important;
+    height: 11.5vh !important;
+  }
+  .blog-container {
+    margin-left: 1rem !important;
+  }
+  .link-text-title {
+    font-size: 1rem !important;
+  }
+  .link-text-big {
+    font-size: 1.34rem !important;
+    font-weight: 10000;
+    letter-spacing: -1px;
+  }
+  .link-text-content-info {
+    font-size: 0.9rem;
+  }
+  .link-text-button {
+    height: 1.76rem !important;
+    width: 6.1rem !important;
+  }
+  .button-text {
+    margin-left: -0.8rem;
+    font-size: 0.63rem !important;
+  }
+  .side-img {
+    width: 30vw !important;
+  }
+  .side-container {
+    margin-top: 4rem !important;
+    margin-left: 3rem !important;
+  }
+  .small-side-date {
+    margin-left: 0.3rem !important;
+  }
+  .side-time-text {
+    margin-left: 0.3rem !important;
+    font-size: 0.8rem !important;
+  }
+  .text-side-line {
+    margin-top: 0.2rem;
+    width: 10.55rem !important;
+  }
+  .side-img2 {
+    width: 30vw !important;
+    margin-top: 17rem !important;
+  }
+  .side-img3 {
+    width: 30vw !important;
+    margin-top: 1rem !important;
+    margin-bottom: 2rem;
+  }
+  .page-redirect {
+    margin-top: -100rem !important;
+    margin-left: -1.5rem !important;
+    width: 15rem !important;
+  }
+}
+@media (min-width: 1367px) {
+  .none-desktop {
+    display: none;
+  }
+  .flex-desktop {
+    display: flex;
+  }
+}

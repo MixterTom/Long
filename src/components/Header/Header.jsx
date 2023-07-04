@@ -16,17 +16,18 @@ function Header() {
   const option4 = document.querySelector(".dashboard-nav-dropdown4");
   const option5 = document.querySelector(".dashboard-nav-dropdown5");
   const option6 = document.querySelector(".dashboard-nav");
-
   const theme = useContext(BodyContext);
+
+  
   useEffect(() => {
-    const scrollTrigger = 60;
+    const scrollTrigger = 30;
     window.onscroll = function () {
-      const header = document.querySelector(".header");
+      const header = document.querySelector(".header-img-logo");
       console.log(header);
       if (window.scrollY >= scrollTrigger) {
-        header.classList.add("inverted");
+        header.classList.add("invertedd");
       } else {
-        header.classList.remove("inverted");
+        header.classList.remove("invertedd");
       }
     };
   });
@@ -108,7 +109,7 @@ function Header() {
 
   return (
     <>
-      <header className="header">
+      <div className="header">
         <div className="header-menu">
           <i
             onClick={() => {
@@ -221,6 +222,7 @@ function Header() {
                   }}
                   className="dashboard-nav-dropdown2"
                 >
+                  <i className="dashboard-icon-trai-tim bi bi-caret-down-fill"></i>
                   <a
                     href="/hanh-trinh-lap-chi-vi-dai-khoi-nghiep-kien-quoc-cho-thanh-nien-viet"
                     style={{ borderRight: "1px solid #fff" }}
@@ -229,7 +231,7 @@ function Header() {
                     {" "}
                     HÀNH TRÌNH LẬP CHÍ VĨ ĐẠI - KHỞI NGHIỆP KIẾN QUỐC{" "}
                   </a>
-                  <i className="dashboard-icon-hanhtrinh bi bi-caret-down-fill"></i>
+                  
                   <div className="dashboard-nav-dropdown-menu">
                     <a
                       href="/hanh-trinh-tu-trai-tim"
@@ -247,7 +249,7 @@ function Header() {
                       borderRight: "1px solid #fff",
                       width: "301px",
                     }}
-                    href="#"
+                    href="/ca-phe-triet-dao"
                     className="dashboard-nav-item active"
                   >
                     {" "}
@@ -408,12 +410,12 @@ function Header() {
           </div>
         </div>
         <div className="header-img">
-          <a href="">
+          <a href="/homepage">
             <img className="header-img-logo" src={logonew} alt="" />
           </a>
         </div>
         <div className="header-language">VI/ EN /CH /KO</div>
-      </header>
+      </div>
     </>
   );
 }
